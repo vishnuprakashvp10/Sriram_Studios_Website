@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaCaretDown } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import Logo from "../../assets/infratech-logobg.png";
+import Logo from "../../assets/sriram_studios_logo.png";
 
 
 const Menu = [

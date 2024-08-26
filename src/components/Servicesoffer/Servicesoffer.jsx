@@ -35,7 +35,7 @@ const Servicesoffer = ({ reverse, img, title, description, description2, handleO
               <img
                 src={img}
                 alt="No image"
-                className="md:w-[500px] md:h-[450px] h-[300px] mx-auto drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover"
+                className="md:w-[500px] md:h-[450px] h-[300px] mx-auto rounded-lg drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover"
               />
             </div>
           </div>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FaCaretDown, FaCaretRight } from "react-icons/fa";
 import { MdPhone as LuPhoneCall } from "react-icons/md";
 import ResponsiveMenu from "./ResponsiveMenu";
-import logo from "../../assets/infratech-logobg.png";
+import logo from "../../assets/sriram_studios_logo.png";
 import { HiMenuAlt1, HiMenuAlt3 } from "react-icons/hi";
 import { isMobile } from "react-device-detect";
 
@@ -110,7 +110,7 @@ const Navbar = ({ handleOrderPopup, orderPopup }) => {
   return (
     <>
       {/* Navbar for laptop view */}
-      <nav className={`hidden md:flex items-center justify-between px-20 py-4 bg-white shadow-md ${isNavbarFixed ? "fixed-navbar" : ""}`}>
+      <nav className={`hidden md:flex items-center justify-between px-20 py-4 bg-black shadow-md ${isNavbarFixed ? "fixed-navbar" : ""}`}>
         <style>
           {`
             .fixed-navbar {
@@ -130,7 +130,7 @@ const Navbar = ({ handleOrderPopup, orderPopup }) => {
           {Menu.map((item) => (
             <li
               key={item.id}
-              className={`cursor-pointer font-medium ${active === item.name ? "text-primary" : "text-gray-800"
+              className={`cursor-pointer font-medium ${active === item.name ? "text-primary" : "text-white"
                 } flex items-center`}
               onMouseEnter={() => handleMouseEnter(item.name)}
               onMouseLeave={handleMouseLeave}

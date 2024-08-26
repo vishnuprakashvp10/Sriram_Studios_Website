@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
-import footerLogo from "../../assets/infratech-logobg.png";
+import footerLogo from "../../assets/sriram_studios_logo.png";
 import { IoLocation } from "react-icons/io5";
 import { FaFacebook, FaInstagram, FaLinkedin, FaMobileAlt } from "react-icons/fa";
 import ThankYouPopup from "../../ThankYouPopup";

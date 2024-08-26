@@ -28,8 +28,8 @@ const Home = () => {
     setShowOrderPopup(!showOrderPopup);
   };
 
-  return (
-    <>
+  return (  
+    <div className="bg-black text-white">
       <Helmet>
         <title>Infratech Builders &#124; Constructions & Interior Designers, Chennai</title>
         <meta name='description' content='Infratech Builders in Chennai crafts your vision with expertise in Building & Turf Construction, Interior Designing, Renovations and Painting. Get a quote today!'/>
@@ -80,7 +80,7 @@ const Home = () => {
       <Exploredesigns />
       <Callusbanner />
 
-    </>
+    </div>
   );
 };
 

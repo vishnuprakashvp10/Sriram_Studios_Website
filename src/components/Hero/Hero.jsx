@@ -82,7 +82,7 @@ const Hero = ({ handleOrderPopup }) => {
   };
 
   return (
-    <div className="relative overflow-hidden flex justify-center mb-10 items-center dark:text-white duration-200">
+    <div className="relative overflow-hidden bg-black flex justify-center mb-10 items-center duration-200">
       <div className="h-full w-full bg-primary/40 absolute -top-1/2 right-0 rounded-3xl rotate-45 -z[8]"></div>
       <div className="container relative">
         <Slider ref={(s) => setSlider(s)} {...settings}>
