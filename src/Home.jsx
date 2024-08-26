@@ -31,7 +31,7 @@ const Home = () => {
   return (  
     <div className="bg-black text-white">
       <Helmet>
-        <title>Infratech Builders &#124; Constructions & Interior Designers, Chennai</title>
+        <title>Sriram Studios &#124; All In One Production Services in Chennai</title>
         <meta name='description' content='Infratech Builders in Chennai crafts your vision with expertise in Building & Turf Construction, Interior Designing, Renovations and Painting. Get a quote today!'/>
       </Helmet>
       <WhatsAppButton />

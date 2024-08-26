@@ -10,8 +10,8 @@ import { FormContext } from "../../contexts/FormSubmitted.context";
 
 const FooterLinks = [
   {
-    title: "Construction",
-    link: "/construction",
+    title: "Film Camera Units",
+    link: "/film-camera-units",
   },
   {
     title: "Home Interior",

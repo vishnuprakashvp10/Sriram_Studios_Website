@@ -15,59 +15,6 @@ import {
 import OrderPopup from "../../Popup";
 import { isMobile } from "react-device-detect";
 
-const ProductsData = [
-  {
-    id: 1,
-    title: "Construction",
-    text1: "Private home ",
-    text2: "Duplex home ",
-    text3: "Residential building",
-    text4: "Commercial Building",
-    text5: "Fencing",
-    link: "/construction",
-  },
-  {
-    id: 2,
-    title: "Interior Designing",
-    text1: "Country house design",
-    text2: "Dining room",
-    text3: "Modern kitchen",
-    text4: "Contemporary home interior",
-    text5: "Modern mansion ",
-    link: "/overview-home-interiors",
-  },
-  {
-    id: 3,
-    title: "Turf Construction",
-    text1: "Multi-sport turf construction ",
-    text2: "Cricket turf construction",
-    text3: "Football turf ",
-    text4: "Badminton turf",
-    text5: "Volleyball turf",
-    link: "/multi-turf-construction",
-  },
-  {
-    id: 4,
-    title: "Renovation Services",
-    text1: "House Remodeling",
-    text2: "Leakage Repair",
-    text3: "Wall dampness treatment",
-    text4: "Ceiling/Roof leakage fix",
-    text5: "Wet wall treatment",
-    link: "/renovation-services",
-  },
-  {
-    id: 5,
-    title: "Painting services",
-    text1: "Exterior house painting",
-    text2: "Interior painting",
-    text3: "Wall painting",
-    text4: "Furniture painting",
-    text5: "Residential house painting",
-    link: "/painting-services",
-  },
-];
-
 function CheckIcon() {
   return (
     <svg
@@ -102,113 +49,22 @@ const Herocard = () => {
   const handleCardClick = (productId) => {
     setSelectedProduct(productId);
   };
-
-  var settings = {
-    dots: true,
-    arrows: false,
-    infinite: true,
-    speed: 500,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    cssEase: "linear",
-    pauseOnHover: true,
-    pauseOnFocus: true,
-    centerMode: true,
-    centerPadding: "0px",
-    responsive: [
-      {
-        breakpoint: 10000,
-        settings: {
-          slidesToShow: 5,
-          slidesToScroll: 5,
-        },
-      },
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 640,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
-
   return (
     <div className="py-10 mb-10">
       <div className="container">
         <div className="flex items-center justify-center mb-8">
           <div className="py-4 max-w-[1200px] mx-auto">
             <h1 className="text-center text-3xl text-primary font-bold">
-            INFRATECH BUILDERS - CONSTRUCTION AND INTERIOR DESIGNERS IN CHENNAI
+            SRIRAM STUDIOS - All In One Production Services in Chennai
             </h1>
-            <p className="text-center text-bold py-4 text-black">
+            <p className="text-center text-bold py-4 text-white">
             Looking to transform your dream home into a reality? Infratech Builders, a leading construction and interior design firm in Chennai, Tamil Nadu, is your one-stop solution. We offer a comprehensive range of services, encompassing architectural design, meticulous construction, stunning interior design, cutting-edge smart home integration, and sustainable energy-efficient solutions – all under one roof.  Driven by a passion for innovation and unwavering commitment to quality, our team of experts brings your visions to life, crafting exceptional spaces that not only meet your needs but also inspire you to live your best life.
             </p>
           </div>
         </div>
       </div>
       <div className="">
-        <Slider {...settings}>
-          {ProductsData.map((product) => (
-            <div key={product.id} className={`my-6 mx-10`}>
-              <Link to={product.link}>
-                <Card
-                  color="gray"
-                  variant="gradient"
-                  className="w-full max-w-[15rem] p-8 bg-gradient-to-r from-primary to-secondary flex flex-col h-[470px]  md:w-max ml-20 sm:w-[10rem] ml-7 xl:ml-0 transition-transform duration-300 ease-in-out hover:scale-105"
-                  onClick={() => handleCardClick(product.id)}
-                >
-                  <CardHeader
-                    floated={false}
-                    shadow={false}
-                    color="transparent"
-                    className="m-0 mb-5 rounded-none border-b border-white/10 pb-8 text-center"
-                  >
-                    <Typography
-                      variant="h1"
-                      color="white"
-                      className="flex justify-center gap-1 font-normal"
-                    >
-                      <span className="text-2xl">{product.title}</span>
-                    </Typography>
-                  </CardHeader>
-                  <CardBody className="p-0 flex-grow">
-                    <ul className="flex flex-col gap-4">
-                      {[product.text1, product.text2, product.text3, product.text4, product.text5].map((text, index) => (
-                        <li key={index} className="flex items-center gap-4">
-                          <span className="rounded-full border border-white/20 bg-white/20 p-1">
-                            <CheckIcon />
-                          </span>
-                          <Typography className="font-normal text-white">{text}</Typography>
-                        </li>
-                      ))}
-                    </ul>
-                  </CardBody>
-                  <CardFooter className="mt-3 p-0">
-                    <Button
-                      size="lg"
-                      color="white"
-                      className="w-full h-[40px] hover:scale-[1.02] focus:scale-[1.02] active:scale-100 text-primary py-3 px-8 rounded-full "
-                      ripple={false}
-                      fullWidth={true}
-                      onClick={handleOrderPopup}
-                    >
-                      Click to View
-                    </Button>
-                  </CardFooter>
-                </Card>
-              </Link>
-            </div>
-          ))}
-        </Slider>
+
       </div>
             {/* Centered button */}
             <div className="flex justify-center mt-6">

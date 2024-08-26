@@ -12,8 +12,8 @@ const Menu = [
   },
   {
     id: 2,
-    name: "Construction",
-    link: "/construction",  
+    name: "Film Camera Units",
+    link: "/film-camera-units",  
   },
   {
     id: 4,
@@ -144,7 +144,7 @@ const ResponsiveMenu = ({ showMenu, toggleMenu, handleOrderPopup }) => {
     <div
       className={`${
         showMenu ? "left-0" : "-left-[100%]"
-      } fixed bottom-0 top-0 z-20 flex flex-col justify-between bg-white px-8 pb-10 pt-24 text-slate-950 transition-all duration-200 md:hidden`}
+      } fixed bottom-0 top-0 z-20 flex flex-col bg-black justify-between px-8 pb-10 pt-24 text-white transition-all duration-200 md:hidden`}
       style={{ maxHeight: "100vh", overflowY: "auto" }} // Added styles for container
     >
       <div className="card">

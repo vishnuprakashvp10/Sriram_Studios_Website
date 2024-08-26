@@ -85,7 +85,7 @@ const Navbar = ({ handleOrderPopup, orderPopup }) => {
 
   const Menu = [
     { id: 1, name: "Home", link: "/" },
-    { id: 2, name: "Construction", link: "/construction" },
+    { id: 2, name: "Film Camera Units", link: "/film-camera-units" },
     {
       id: 3,
       name: "Interior Design",
@@ -235,7 +235,7 @@ const Navbar = ({ handleOrderPopup, orderPopup }) => {
 
       {/* Responsive Navbar */}
       <div ref={menuRef} className={`md:hidden ${showMenu ? "" : ""} ${isNavbarFixed ? "fixed-navbar" : ""}`}>
-        <nav className="flex items-center justify-between px-6 py-4 gap-6 bg-white shadow-md">
+        <nav className="flex items-center justify-between px-6 py-4 gap-6 bg-black shadow-md">
           <Link to="/">
             <img src={logo} alt="Logo" className="w-30 h-16" />
           </Link>
@@ -244,13 +244,13 @@ const Navbar = ({ handleOrderPopup, orderPopup }) => {
             {showMenu ? (
               <HiMenuAlt1
                 onClick={toggleMenu}
-                className="cursor-pointer transition-all text-black"
+                className="cursor-pointer transition-all text-white"
                 size={30}
               />
             ) : (
               <HiMenuAlt3
                 onClick={toggleMenu}
-                className="cursor-pointer transition-all text-black"
+                className="cursor-pointer transition-all text-white"
                 size={30}
               />
             )}
