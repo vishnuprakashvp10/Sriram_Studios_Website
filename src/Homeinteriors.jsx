@@ -2,15 +2,11 @@ import React, { useState } from 'react';
 import Homeinteriorshero from './components/Homeinteriorshero/Homeinteriorshero'
 import Homeinteriorsweprovidetext from './components/Homeinteriorsweprovide/Homeinteriorsweprovidetext'
 import Homeinteriorsweprovide from './components/Homeinteriorsweprovide/Homeinteriorsweprovide'
-import Homeinteriorscard from './components/Homeinteriorsweprovide/Homeinteriorscard'
-import Homeinteriorstable from './components/Homeinteriorsweprovide/Homeinteriorstable'
-import Homeinteriorstabletext from './components/Homeinteriorsweprovide/Homeinteriorstabletext'
-import Homeinteriorsotherservices from './components/Homeinteriorsweprovide/Homeinteriorsotherservices';
 import Exploredesigns from './components/Exploredesigns/Exploredesigns'
 import Callusbanner from './components/Callusbanner/Callusbanner'
-import Banner1 from './assets/Hero/livingroom.jpg';
-import Banner2 from './assets/Hero/dinning.jpg';
-import Banner3 from './assets/Hero/bedroom.jpg';
+import Banner1 from './assets/Hero/chromekey-green.webp';
+import Banner2 from './assets/Hero/pre-lit-green-matte.jpg';
+import Banner3 from './assets/Hero/expansive-green-matte.jpeg';
 import OrderPopup from "./Popup";
 import WhatsAppButton from './whatsappbutton';
 import { Helmet } from 'react-helmet-async';
@@ -21,17 +17,17 @@ const Homeinteriors = () => {
 
   const handleOrderPopup = () => {
     if (isMobile) {
-      window.location.href = `tel:+917092805747`;
+      window.location.href = `tel:+04423751935`;
       return null;
     }
     setShowOrderPopup(!showOrderPopup);
   };
 
   return (
-    <div>
+    <div className="bg-black text-white">
       <Helmet>
-        <title>Home Interior Decorators in Chennai &#124; Infratech Builders</title>
-        <meta name='description' content='Infratech Builders in Chennai crafts your vision with expertise in Building & Turf Construction, Interior Designing, Renovations and Painting. Get a quote today!' />
+        <title>Green Matte Studios in Chennai  &#124; Sriram Studios</title>
+        <meta name='description' content='Sriram Studios offers top-tier Green Matte Studio services, delivering exceptional solutions for your film production needs.' />
       </Helmet>
       <WhatsAppButton />
       <Homeinteriorshero
@@ -40,32 +36,24 @@ const Homeinteriors = () => {
       <Homeinteriorsweprovide
         handleOrderPopup={handleOrderPopup}
         img={Banner1}
-        title="Interior Design for Every Room"
-        description=" Living Room Design, Bedroom Design, Kitchen Design, Dining Room Design and Foyer Design"
-        description2="Transforming spaces into stunning sanctuaries is our expertise. We blend elegance to craft unforgettable interiors. From cozy living rooms to tranquil bedrooms and inspiring kitchens, every corner reflects your style. Our designs create inviting dining atmospheres and captivating foyer entrances. Trust us to redefine luxury and comfort for"  
+        title="Chromakey Green Matte Studio"
+        description2="Our chromakey green matte studio facility is fully equipped with state-of-the-art studio lighting, advanced sound systems, cutting-edge teleprompters, and high-definition video cameras. From the precise illumination provided by our latest lighting technology to the crystal-clear audio captured by our sophisticated sound equipment."  
      />
       <Homeinteriorsweprovide
         handleOrderPopup={handleOrderPopup}
         reverse={true}
         img={Banner2}
-        title="Enhancement Solutions"
-        description=" Create a sacred sanctuary for prayer and reflection with our serene pooja room or mandir designs, adhering to Vastu principles for south-facing homes."
-        description2 =" Maximize the functionality of every room with our ingenious solutions, whether it's concealing cords on walls or crafting stunning false ceiling designs. Select materials like engineered wood, waterproof plywood, and acrylic kitchen cabinets that perfectly match your needs and budget."
+        title="Pre-Lit Infinity Cove Cyclorama"
+        description2 =" Our studio features a state of the art pre-lit infinity cove cyclorama, designed to provide a seamless and versatile backdrop for your video productions. This advanced setup ensures a smooth, continuous background with no visible seams or edges, creating an immersive environment that enhances your visual storytelling."
       />
       <Homeinteriorsweprovide
         handleOrderPopup={handleOrderPopup}
         img={Banner3}
-        title="Interior Design Expertise"
-        description=" As your design partner, Infratech Builders guides from concept to completion, transforming spaces with style and comfort."
-        description2="Bringing expertise to diverse commercial spaces, we specialize in crafting captivating interiors for malls, salons, bakeries, gyms, and more. With 3D visualization tools, preview your dream space before construction. Prioritizing quality and sustainability, we recommend weatherproof materials for enduring beauty."
+        title="Expansive Green Matte Studio"
+        description2="Our green matte studio spans 15 feet by 19 feet, with a height of 30 feet. This spacious facility is ideal for a variety of filming needs, providing ample room for creative projects and versatile shooting angles. Its generous dimensions accommodate complex setups and large-scale productions, ensuring a professional and adaptable environment."
      />
-      <Homeinteriorscard 
-      handleOrderPopup={handleOrderPopup}/>
-      <Homeinteriorstabletext/>
-      <Homeinteriorstable/>
       <OrderPopup orderPopup={showOrderPopup} setOrderPopup={setShowOrderPopup} type={"Dining Room"} />
       <Exploredesigns />
-      <Homeinteriorsotherservices />
       <Callusbanner />
     </div>
   );

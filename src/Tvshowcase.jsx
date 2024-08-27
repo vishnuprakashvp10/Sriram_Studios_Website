@@ -3,7 +3,6 @@ import OrderPopup from "./Popup";
 import Tvshowcasehero from './components/Tvshowcase/Tvshowcasehero'
 import Tvshowcaseweprovidetext from './components/Tvshowcase/Tvshowcaseweprovidetext'
 import Tvshowcaseweprovide from './components/Tvshowcase/Tvshowcaseweprovide'
-import Modularotherservices from './components/Modularkitchenweprovide/Modularotherservices'
 import Exploredesigns from './components/Exploredesigns/Exploredesigns'
 import Banner1 from './assets/Hero/tv1.jpg';
 import Banner2 from './assets/Hero/tv2.jpg';
@@ -61,8 +60,7 @@ const Tvshowcase = () => {
       <OrderPopup orderPopup={showOrderPopup} setOrderPopup={setShowOrderPopup} type={"Tv Showcase"} />
 
       <Exploredesigns />
-      <Modularotherservices />
-      <Callusbanner />
+]      <Callusbanner />
     </div>
   )
 }

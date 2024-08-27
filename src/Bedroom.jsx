@@ -3,7 +3,6 @@ import OrderPopup from "./Popup";
 import Bedroomhero from './components/Bedroom/Bedroomhero'
 import Bedroomweprovidetext from './components/Bedroom/Bedroomweprovidetext'
 import Bedroomweprovide from './components/Bedroom/Bedroomweprovide'
-import Modularotherservices from './components/Modularkitchenweprovide/Modularotherservices'
 import Exploredesigns from './components/Exploredesigns/Exploredesigns'
 import Banner1 from './assets/Hero/bed1.jpg';
 import Banner2 from './assets/Hero/bed2.jpg';
@@ -53,7 +52,6 @@ const Bedroom = () => {
               <OrderPopup type={"Bedroom"} orderPopup={showOrderPopup} setOrderPopup={setShowOrderPopup} />
 
           <Exploredesigns/>
-          <Modularotherservices/>
           <Callusbanner/>
           </div>
   )

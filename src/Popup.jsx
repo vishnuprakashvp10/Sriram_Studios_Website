@@ -49,9 +49,9 @@ const OrderPopup = ({ orderPopup, setOrderPopup, timeoutReq, type }) => {
     let timeoutId;
 
     if (initialCall) {
-      timeoutId = setInterval(popupFunction, 30000)
+      timeoutId = setInterval(popupFunction, 50000)
     } else {
-      timeoutId = setInterval(popupFunction, 95000);
+      timeoutId = setInterval(popupFunction, 125000);
     }
 
     return () => {

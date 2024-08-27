@@ -3,7 +3,6 @@ import OrderPopup from "./Popup";
 import Falseceilinghero from './components/Falseceilinghero/Falseceilinghero'
 import Falseceilingweprovidetext from './components/Falseceilingweprovide/Falseceilingweprovidetext'
 import Falseceilingweprovide from './components/Falseceilingweprovide/Falseceilingweprovide'
-import Modularotherservices from './components/Modularkitchenweprovide/Modularotherservices'
 import Exploredesigns from './components/Exploredesigns/Exploredesigns'
 import Banner1 from './assets/Hero/false1.jpg';
 import Banner2 from './assets/Hero/false2.jpg';
@@ -53,7 +52,6 @@ const Falseceiling = () => {
       <OrderPopup orderPopup={showOrderPopup} setOrderPopup={setShowOrderPopup} type={"False Ceiling"} />
 
       <Exploredesigns />
-      <Modularotherservices />
       <Callusbanner />
     </div>
   )

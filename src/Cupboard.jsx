@@ -3,7 +3,6 @@ import OrderPopup from "./Popup";
 import Cupboardhero from './components/Cupboardhero/Cupboardhero'
 import Cupboardweprovidetext from './components/Cupboardweprovide/Cupboardweprovidetext'
 import Cupboardweprovide from './components/Cupboardweprovide/Cupboardweprovide'
-import Modularotherservices from './components/Modularkitchenweprovide/Modularotherservices'
 import Exploredesigns from './components/Exploredesigns/Exploredesigns'
 import Callusbanner from './components/Callusbanner/Callusbanner';
 import WhatsAppButton from './whatsappbutton';
@@ -34,7 +33,6 @@ const Cupboard = () => {
         handleOrderPopup={handleOrderPopup} />
       <OrderPopup orderPopup={showOrderPopup} setOrderPopup={setShowOrderPopup} type={"Cupboard"} />
       <Exploredesigns />
-      <Modularotherservices />
       <Callusbanner />
     </div>
   )

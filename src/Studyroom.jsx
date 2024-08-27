@@ -3,7 +3,6 @@ import OrderPopup from "./Popup";
 import Studyroomhero from './components/Studyroom/Studyroomhero'
 import Studyroomweprovidetext from './components/Studyroom/Studyroomweprovidetext'
 import Studyroomweprovide from './components/Studyroom/Studyroomweprovide'
-import Modularotherservices from './components/Modularkitchenweprovide/Modularotherservices'
 import Exploredesigns from './components/Exploredesigns/Exploredesigns'
 import Banner1 from './assets/Hero/study1.jpg';
 import Banner2 from './assets/Hero/study2.jpg';
@@ -46,7 +45,6 @@ const Studyroom = () => {
       />
          <OrderPopup orderPopup={showOrderPopup} setOrderPopup={setShowOrderPopup} type={"Study Room"} />
           <Exploredesigns/>
-          <Modularotherservices/>
           <Callusbanner/>
           </div>
   )

@@ -54,8 +54,8 @@ const App = () => {
               <Route path="/home" element={<Home />} />
               <Route path="/film-camera-units" element={<Construction />} /> 
               <Route path="/commercial-interior-designs" element={<Commercialinteriordesigns />} />
-              <Route path="/overview-home-interiors" element={<Homeinteriors />} />
-              <Route path="/modular-kitchen" element={<Modularkitchen />} />
+              <Route path="/green-matte-studio" element={<Homeinteriors />} />
+              <Route path="/editing-suites" element={<Modularkitchen />} />
               <Route path="/living-room-hall" element={<Livingroomhall />} />
               <Route path="/false-ceiling" element={<Falseceiling />} />
               <Route path="/cupboard-wardrobes" element={<Cupboard />} />

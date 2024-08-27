@@ -3,7 +3,6 @@ import OrderPopup from "./Popup";
 import ToiletBathroomhero from './components/ToiletBathroom/ToiletBathroomhero'
 import ToiletBathroomweprovidetext from './components/ToiletBathroom/ToiletBathroomweprovidetext'
 import ToiletBathroomweprovide from './components/ToiletBathroom/ToiletBathroomweprovide'
-import Modularotherservices from './components/Modularkitchenweprovide/Modularotherservices'
 import Exploredesigns from './components/Exploredesigns/Exploredesigns'
 import Banner1 from './assets/Hero/toilet1.jpg';
 import Banner2 from './assets/Hero/toilet2.jpg';
@@ -47,7 +46,6 @@ const ToiletBathroom = () => {
         <OrderPopup orderPopup={showOrderPopup} setOrderPopup={setShowOrderPopup} type={"Toilet Bathroom"} />
 
           <Exploredesigns/>
-          <Modularotherservices/>
           <Callusbanner/>
           </div>
   )

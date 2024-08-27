@@ -3,7 +3,6 @@ import OrderPopup from "./Popup";
 import Diningroomhero from './components/Diningroomhero/Diningroomhero'
 import Diningroomweprovidetext from './components/Diningroomweprovide/Diningroomweprovidetext'
 import Diningroomweprovide from './components/Diningroomweprovide/Diningroomweprovide'
-import Modularotherservices from './components/Modularkitchenweprovide/Modularotherservices'
 import Exploredesigns from './components/Exploredesigns/Exploredesigns'
 import Callusbanner from './components/Callusbanner/Callusbanner';
 import WhatsAppButton from './whatsappbutton';
@@ -35,7 +34,6 @@ const Diningroom = () => {
       <OrderPopup orderPopup={showOrderPopup} setOrderPopup={setShowOrderPopup} type={"Dining Room"} />
 
       <Exploredesigns />
-      <Modularotherservices />
       <Callusbanner />
     </div>
   )

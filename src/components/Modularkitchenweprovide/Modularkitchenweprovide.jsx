@@ -10,37 +10,37 @@ const ModularkitchenweprovideData = [
   {
     id: 1,
     img: Img1,
-    name: "L-Shaped Modular Kitchen",
-    text: "Our expertise lies in crafting L-shaped modular kitchens, utilizing adjoining walls to provide extensive countertop space and storage solutions. Through our interior design services, we achieve a seamless and efficient kitchen layout, striking the perfect balance between functionality and aesthetics to cater to your culinary needs.",
+    name: "Voice Studios and Ad Posting",
+    text: "At Sriram Studios, we offer premier voice studios and exclusive ad-posting services within our editing suites, tailored for exceptional audio and visual production. Our advanced voice studios are equipped with high-quality microphones, soundproofing and industry-leading recording technology ensuring crystal-clear audio captures. ",
   },
   {
     id: 2,
-    name: "Linear or Straight Modular Kitchen",
-    text: "Our interior design services for straight modular kitchens are customized to enhance space and efficiency within a linear layout. We meticulously craft a streamlined and organized kitchen design, seamlessly integrating storage, appliances, and work surfaces for a sleek and practical cooking area.",
+    name: "AB Roll Edit Studio",
+    text: "Our AB Roll Studio in the editing suite provides seamless editing capabilities for professionals, enabling smooth transitions between two video sources. Equipped with advanced editing tools and high-performance systems, it is designed to deliver precise cuts, sync audio perfectly, and enhance the overall storytelling process.",
     img: Img2,
   },
   {
     id: 3,
-    name: "U-Shaped Modular Kitchen",
-    text: "Crafting U-shaped modular kitchens, our designs prioritize functionality and ergonomics. With countertops and cabinets along three sides, our interior design services optimize storage, workspace, and traffic flow, resulting in a well-organized and efficient kitchen tailored to your needs.",
+    name: "High-End Equipment from Global Brands",
+    text: "Our editing suites are equipped with top-of-the-line hardware sourced from renowned international vendors like Sony, JVC, Steinberg, and Nuendo. This ensures superior performance, unmatched audio-visual quality, and a seamless editing experience for all your post-production needs.",
     img: Img3,
   },
   {
     id: 4,
-    name: "Parallel or Galley-Shaped Modular Kitchen",
-    text: "Discover unparalleled efficiency with our Parallel or Galley-Shaped Modular Kitchen designs. Featuring twin countertops along facing walls, our interiors seamlessly blend style and functionality. Meticulously crafted for compact spaces, we optimize storage and create a streamlined workflow, transforming your kitchen into a stylish and practical culinary haven.",
+    name: "Advanced Non-Linear Editing Systems",
+    text: "Our editing suites are equipped with state-of-the-art non-linear editing systems from renowned brands such as Matrix, Avid, and Discreet Logic. These cutting-edge tools provide unparalleled precision and flexibility, ensuring high-quality post-production for your projects. Our technology ensures seamless editing with advanced features.",
     img: Img4,
   },
   {
     id: 5,
-    name: "Island Modular Kitchen",
-    text: "Embark on a culinary journey with our Island Modular Kitchen Interior Design. This innovative layout introduces a central island, elevating both style and functionality. Our designs prioritize spaciousness, providing a hub for cooking, dining, and socializing. Immerse yourself in a kitchen experience that seamlessly combines aesthetic appeal and practicality.",
+    name: "High-Performance Editing Workstations",
+    text: "Our editing systems are powered by high-performance SGI and IBM workstations, delivering unparalleled speed and precision. These robust systems enable seamless handling of complex video projects, ensuring smooth editing workflows and exceptional output quality.",
     img: Img5,
   },
   {
     id: 6,
-    name: "G-Shaped or Peninsula Modular Kitchen",
-    text: "Experience culinary luxury with our G-Shaped or Peninsula Modular Kitchen designs. The layout, featuring an extended countertop or peninsula, enhances both functionality and aesthetics. Our interiors prioritize seamless workflow, ample storage, and a sophisticated design, creating a kitchen space that marries style with practicality for an elevated cooking experience.",
+    name: "Diverse Editing Suites for Every Need",
+    text: "Our facility offers a wide range of editing suites to accommodate all your post-production requirements. These state-of-the-art suites are equipped with advanced technology and tailored to meet various editing needs. Whether you require high-performance systems for intricate edits or user-friendly setups for straightforward projects.",
     img: Img6,
   },
 ];
@@ -63,8 +63,8 @@ const Modularkitchenweprovide = ({ handleOrderPopup }) => {
                 />
               </div>
               <div className="p-4 text-center">
-                <h1 className="text-xl font-bold">{service.name}</h1>
-                <p className="text-gray-500 group-hover:text-white duration-high text-sm ">
+                <h1 className="text-xl text-primary group-hover:text-white font-bold">{service.name}</h1>
+                <p className="text-black group-hover:text-white duration-high text-sm ">
                   {service.text}
                 </p>
                 <button

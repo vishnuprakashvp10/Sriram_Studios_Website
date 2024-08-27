@@ -2,14 +2,14 @@ import React, { useState, useEffect } from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Image1 from "../../assets/Hero/alexa-lf.webp";
+import Image1 from "../../assets/Hero/alexa-lf.jpg";
 import Image2 from "../../assets/Hero/alexa-s35.jpg";
 import Image3 from "../../assets/Hero/alexa-sxt.jpg";
 import Image4 from "../../assets/Hero/alexa-minilf.webp";
-import Image5 from  "../../assets/Hero/sony-venice2.webp";
-import Image6 from "../../assets/Hero/red-gemini.jpeg";
+import Image5 from  "../../assets/Hero/sony-venice2.jpg";
+import Image6 from "../../assets/Hero/red-gemini.jpg";
 import Image7 from "../../assets/Hero/red-helium.jpg";
-import Image8 from "../../assets/Hero/sony-fx9.webp";
+import Image8 from "../../assets/Hero/sony-fx9.jpg";
 import Image9 from "../../assets/Hero/sony-venice1.jpg";
 import Image10 from "../../assets/Hero/red-raptor.jpg";
 
@@ -56,7 +56,7 @@ const ImageList = [
     img: Image10,
   },
 ];  
-
+ 
 const Hero = ({ handleOrderPopup }) => {
   const [slider, setSlider] = useState(null);
 

@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Commercialhero from './components/Commercial/Commercialhero'
 import Commercialweprovidetext from './components/Commercial/Commercialweprovidetext'
 import Commercialweprovide from './components/Commercial/Commercialweprovide'
-import Modularotherservices from './components/Modularkitchenweprovide/Modularotherservices'
 import Exploredesigns from './components/Exploredesigns/Exploredesigns'
 import Callusbanner from './components/Callusbanner/Callusbanner'
 import Banner1 from './assets/Hero/comone.jpg';
@@ -45,7 +44,6 @@ const Homeinteriors = () => {
       <OrderPopup orderPopup={showOrderPopup} setOrderPopup={setShowOrderPopup} type={"Commercial Interior Designs"} />
 
       <Exploredesigns />
-      <Modularotherservices />
       <Callusbanner />
     </div>
   );

@@ -3,7 +3,6 @@ import OrderPopup from "./Popup";
 import Poojaroomhero from './components/Poojaroom/Poojaroomhero'
 import Poojaroomweprovidetext from './components/Poojaroom/Poojaroomweprovidetext'
 import Poojaroomweprovide from './components/Poojaroom/Poojaroomweprovide'
-import Modularotherservices from './components/Modularkitchenweprovide/Modularotherservices'
 import Exploredesigns from './components/Exploredesigns/Exploredesigns'
 import Banner1 from './assets/Hero/pooja1.jpg';
 import Banner2 from './assets/Hero/poojatwo.jpg';
@@ -59,7 +58,6 @@ const Poojaroom = () => {
       <OrderPopup orderPopup={showOrderPopup} setOrderPopup={setShowOrderPopup} type={"Pooja Room"} />
 
       <Exploredesigns />
-      <Modularotherservices />
       <Callusbanner />
     </div>
   )

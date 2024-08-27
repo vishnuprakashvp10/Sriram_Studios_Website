@@ -16,79 +16,79 @@ import Img10 from "../../assets/Hero/projector.webp";
 import OrderPopup from "../../Popup";
 import { isMobile } from "react-device-detect";
 
-
 const Exploredesignscard = [
   {
     id: 1,
     img: Img1,
     name: "Green Matte Studio",
     link: "/green-matte-studio",
-    text: "Elevate your kitchen with modular interior design, incorporating creative ideas for small apartments.",
+    text: "Our Green Matte Studio offers professional setups for seamless compositing and advanced VFX production.",
   },
   {
     id: 2,
     img: Img2,
-    name: "Editing Suite",
-    link: "/editing-suite",
-    text: "We specialize in designing spaces that seamlessly  blend style and comfort, from minimalist to eclectic.",
+    name: "Editing Suites",
+    link: "/editing-suites",
+    text: "Our state-of-the-art editing suites are equipped for high-end post-production, ensuring a flawless final cut.",
   },
   {
     id: 3,
     img: Img3,
     name: "Dubbing Studios",
     link: "/dubbing-studios",
-    text: "Transform your interior into a stylish haven, adding a touch of sophistication and charm to your living areas.",
+    text: "Experience top-tier sound quality in our professional dubbing studios, designed for flawless voice recording.",
   },
   {
     id: 4,
     img: Img4,
     name: "Audio Mixing",
     link: "/audio-mixing",
-    text: "Our catalog inspires functional and stylish wardrobe interior designs, perfect for loft spaces.",
+    text: "Achieve impeccable sound balance with our advanced audio mixing facilities, perfect for any production.",
   },
   {
     id: 5,
     img: Img5,
     name: "Lights and Grips",
     link: "/lights-and-grips",    
-    text: "Discover imaginative dining room wall decor ideas that elegantly redefine style within your home.",
+    text: "Our lights and grips rental services ensure your set is perfectly lit for professional-grade film production.",
   },
   {
     id: 6,
     img: Img6,
     name: "Lens Filters",
-    link: "/lens-fileters",
-    text: "Our designs seamlessly integrate stylish bathroom decorations that  blends luxury and utility.",
+    link: "/lens-filters",
+    text: "Choose from a wide range of lens filters that enhance your shots with the perfect lighting and effects.",
   },
   {
     id: 7,
     img: Img7,
     name: "Camera Lenses",
     link: "/camera-lenses",   
-    text: " Explore interior design websites for inspiration on creating an elegant and functional centerpiece in your living space.",
+    text: "We offer premium camera lenses for rent, providing filmmakers with the best tools for capturing stunning visuals.",
   },
   {
     id: 8,
     img: Img8,
     name: "Genset",
     link: "/genset",    
-    text: "Transform your study space with our specialized interior design. We create a conducive and stylish environment.",
+    text: "Ensure uninterrupted power on set with our reliable genset rentals, tailored for professional shoots.",
   },
   {
     id: 9,
     img: Img9,
     name: "Film Camera Units",
     link: "/film-camera-units",
-    text: "Minimalist elegance for spaces, including Pooja rooms, reflect your unique style with sophistication.",
+    text: "Rent high-performance film camera units, designed to meet the rigorous demands of professional filmmakers.",
   },
   {
     id: 10,
     img: Img10,
-    name: "Projector and Screens",
-    link: "/projector-and-screens",    
-    text: "Elevate your bedrooms with imaginative decor concepts, inspiring ideas for bunk bed decoration.",
+    name: "Blog Post",
+    link: "/blog-post",    
+    text: "Stay updated with our blog posts, offering insights and tips on film production, post-production, and more.",
   },
 ];
+
 
 const Exploredesigns = () => {
   const [showOrderPopup, setShowOrderPopup] = useState(false);

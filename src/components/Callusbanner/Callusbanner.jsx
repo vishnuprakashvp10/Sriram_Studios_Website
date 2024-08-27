@@ -10,7 +10,7 @@ const BannerImg = {
 
 const Callusbanner = () => {
   return (
-    <div className="mb-20 bg-gray-100 text-black" style={BannerImg}>
+    <div className="mb-20 bg-black text-black" style={BannerImg}>
       <div className="container backdrop-blur-sm py-10">
         <div className="space-y-6 mx-auto text-center sm:text-left">
           <h1 className="text-xl text-white text-center sm:text-4xl font-semibold">

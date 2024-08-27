@@ -15,11 +15,8 @@ const Constructionweprovide = ({ reverse, img, title, quotes, description, handl
                 reverse ? "md:order-last" : ""
               } `}
             >
-              <h1 className="font-bold md:text-4xl text-2xl mx-auto text-black">{title}</h1>
-              <p className=" quotes text-center max-w-[600px] mx-auto text-black">
-                {quotes}
-              </p>
-              <p className="  py-2 max-w-[600px] mx-auto text-black">
+              <h1 className="font-bold md:text-4xl text-2xl mx-auto text-primary">{title}</h1>
+              <p className="  py-2 max-w-[600px] mx-auto text-white">
                 {description}
               </p>
               <div>

@@ -22,7 +22,7 @@ const Home = () => {
 
  const handleOrderPopup = () => {
     if (isMobile) {
-      window.location.href = `tel:+917092805747`;
+      window.location.href = `tel:04423751935`;
       return null;
     }
     setShowOrderPopup(!showOrderPopup);
@@ -79,7 +79,6 @@ const Home = () => {
       <OrderPopup orderPopup={showOrderPopup} setOrderPopup={setShowOrderPopup} type={"Home Page"} />
       <Exploredesigns />
       <Callusbanner />
-
     </div>
   );
 };

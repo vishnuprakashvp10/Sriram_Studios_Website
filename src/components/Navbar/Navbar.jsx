@@ -100,9 +100,8 @@ const Navbar = ({ handleOrderPopup, orderPopup }) => {
       dropdownLinks: [
         { id: 41, name: "Lights and Grips", link: "/lights-and-grips" },
         { id: 42, name: "Lens Filters", link: "/lens-fileters" },
-        { id: 43, name: " Camera Lenses", link: "/camera-lenses" },
-        { id: 44, name: " Genset", link: "/camera-lenses" },
-        { id: 45, name: " Projector and Screens", link: "/projector-and-screens" },
+        { id: 43, name: "Camera Lenses", link: "/camera-lenses" },
+        { id: 44, name: "Genset", link: "/camera-lenses" },
       ],
     },
     { id: 5, name: "About", link: "/about-us" },
@@ -175,7 +174,7 @@ const Navbar = ({ handleOrderPopup, orderPopup }) => {
                               <Link to="/green-matte-studio" className="hover:text-[#3E4095]" style={{ lineHeight: '3' }}>Green Matte Studio</Link>
                             </li>
                             <li>
-                              <Link to="/editing-suite" className="hover:text-[#3E4095]" style={{ lineHeight: '3' }}>Editing Suite</Link>
+                              <Link to="/editing-suites" className="hover:text-[#3E4095]" style={{ lineHeight: '3' }}>Editing Suites</Link>
                             </li>
                             <li>
                               <Link to="/dubbing-studios" className="hover:text-[#3E4095]" style={{ lineHeight: '3' }}>Dubbing Studios</Link>

@@ -30,8 +30,8 @@ const Menu = [
           },
           {
             id: 2,
-            name: "Editing Suite",
-            link: "/editing-suite",
+            name: "Editing Suites",
+            link: "/editing-suites",
           },
           {
             id: 3,
@@ -75,11 +75,6 @@ const Menu = [
       id: 4,
       name: "Genset",
       link: "/genset",
-    },
-    {
-      id: 5,
-      name: "Projector and Screens",
-      link: "/projector-and-screens",
     },
   ],
   },

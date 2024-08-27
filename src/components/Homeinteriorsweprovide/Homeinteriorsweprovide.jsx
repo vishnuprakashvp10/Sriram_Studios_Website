@@ -14,12 +14,10 @@ const Homeinteriorsweprovide = ({ reverse, img, title, description, description2
                 reverse ? "md:order-last" : ""
               } `}
             >
-              <h1 className="md:text-4xl text-2xl mx-auto font-bold text-black">{title}</h1>
+              <h1 className="md:text-4xl text-2xl mx-auto font-bold text-primary">{title}</h1>
 
-              <p className="=font-bold py-2 max-w-[600px] mx-auto text-black">
+              <p className="=font-bold py-2 max-w-[600px] mx-auto text-white">
                 {description2}
-                <span className="text-primary">{description}</span>
-
               </p>
 
               <div>

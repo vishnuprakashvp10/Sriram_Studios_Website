@@ -3,7 +3,6 @@ import OrderPopup from "./Popup";
 import Livingroomhallhero from './components/Livingroomhallhero/Livingroomhallhero'
 import Livingroomhallweprovidetext from './components/Livingroomhallweprovide/Livingroomhallweprovidetext'
 import Livingroomhallweprovide from './components/Livingroomhallweprovide/Livingroomhallweprovide'
-import Modularotherservices from './components/Modularkitchenweprovide/Modularotherservices'
 import Callusbanner from './components/Callusbanner/Callusbanner';
 import WhatsAppButton from './whatsappbutton';
 import Exploredesigns from './components/Exploredesigns/Exploredesigns'
@@ -37,8 +36,6 @@ const Livingroomhall = () => {
       <OrderPopup orderPopup={showOrderPopup} setOrderPopup={setShowOrderPopup} type={"Living Room"} />
 
       <Exploredesigns />
-
-      <Modularotherservices />
       <Callusbanner />
     </div>
   )
