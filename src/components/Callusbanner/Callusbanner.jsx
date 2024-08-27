@@ -1,5 +1,5 @@
 import React from "react";
-import Banner from "../../assets/Hero/callusbannerimg.jpg";
+import Banner from "../../assets/Hero/banner.png";
 
 const BannerImg = {
   backgroundImage: `url(${Banner})`,
@@ -13,28 +13,27 @@ const Callusbanner = () => {
     <div className="mb-20 bg-gray-100 text-black" style={BannerImg}>
       <div className="container backdrop-blur-sm py-10">
         <div className="space-y-6 mx-auto text-center sm:text-left">
-          <h1 className="text-xl text-black text-center sm:text-4xl font-semibold">
-            Reach Us To Enhance Your Lifestyle
+          <h1 className="text-xl text-white text-center sm:text-4xl font-semibold">
+          Reach Us to Elevate Your Production
           </h1>
-          <p className="text-black text-center sm:text-2xl font-semibold">
+          <p className="text-white text-center hover:scale-105 sm:text-2xl font-semibold">
             <div>
-            <span>Call</span>{" "} </div>
-            <a href="tel:+917092805747" className="hover-primary underline">
-              +91 7092805747
+            <span>Contact us:</span>{" "} </div>
+            <a href="tel:04423751935" className="underline">
+            044 23751935
             </a>{" "}
             <div>
-            <a href="tel:+917010332274" className="hover-primary underline">
-              +91 7010332274
+            <a href="tel:+919840041312" className="underline">
+            +91 9840041312
             </a></div>
           </p>
-          <p className="text-white hover-primary text-center sm:text-2xl font-semibold">
-            <a href="mailto:enquiries@infratechbuilders.in" className="underline">
-              enquiries@infratechbuilders.in
+          <p className="text-white hover:scale-110 text-center sm:text-2xl font-semibold">
+            <a href="mailto:sriramstudioschennai@gmail.com" className="underline">
+            sriramstudioschennai@gmail.com
             </a>
           </p>
-          <p className="text-black text-center sm:text-2xl font-semibold">
-            Infratech Builders is dedicated to ensuring that outstanding home
-            improvement is within reach for everyone
+          <p className="text-white text-center sm:text-2xl font-semibold">
+          Sriram Studios is dedicated to ensuring that top-tier film production services are accessible for every professional project
           </p>
         </div>
       </div>

@@ -88,19 +88,21 @@ const Navbar = ({ handleOrderPopup, orderPopup }) => {
     { id: 2, name: "Film Camera Units", link: "/film-camera-units" },
     {
       id: 3,
-      name: "Interior Design",
+      name: "Media Production",
       dropdownLinks: [
-        { id: 31, name: "Home Interior Designs", hasCaretRight: true, hasCaretLeft: true },
-        { id: 32, name: "Commercial Interior Designs", link: "/commercial-interior-designs" },
+        { id: 31, name: "Post Production Suite", hasCaretRight: true, hasCaretLeft: true },
+        { id: 32, name: "Multi-Camera-Setup", link: "/multi-camera-setup" },
       ],
     },
     {
       id: 4,
-      name: "Other Services",
+      name: "Equipment Rentals",
       dropdownLinks: [
-        { id: 41, name: "Multi-Turf Construction", link: "/multi-turf-construction" },
-        { id: 42, name: "Painting Services", link: "/painting-services" },
-        { id: 43, name: "Renovation Services", link: "/renovation-services" },
+        { id: 41, name: "Lights and Grips", link: "/lights-and-grips" },
+        { id: 42, name: "Lens Filters", link: "/lens-fileters" },
+        { id: 43, name: " Camera Lenses", link: "/camera-lenses" },
+        { id: 44, name: " Genset", link: "/camera-lenses" },
+        { id: 45, name: " Projector and Screens", link: "/projector-and-screens" },
       ],
     },
     { id: 5, name: "About", link: "/about-us" },
@@ -166,43 +168,21 @@ const Navbar = ({ handleOrderPopup, orderPopup }) => {
                           </li>
                         ))}
                       </ul>
-                      {showSecondDropdown && activeDropdown === item.name && item.name === "Interior Design" && (
-                        <div className="mt-[-130px] absolute left-full z-[9999] w-[200px] rounded-md bg-white p-2 text-black shadow-md">
+                      {showSecondDropdown && activeDropdown === item.name && item.name === "Media Production" && (
+                        <div className="mt-[-112px] absolute left-full z-[9999] w-[200px] rounded-md bg-white p-2 text-black shadow-md">
                           <ul>
-                            <li>
-                              <Link to="/overview-home-interiors" className="hover-primary" style={{ lineHeight: '3' }}>Overiew</Link>
+                          <li>
+                              <Link to="/green-matte-studio" className="hover:text-[#3E4095]" style={{ lineHeight: '3' }}>Green Matte Studio</Link>
                             </li>
                             <li>
-                              <Link to="/modular-kitchen" className="hover-primary" style={{ lineHeight: '3' }}>Modular Kitchen</Link>
+                              <Link to="/editing-suite" className="hover:text-[#3E4095]" style={{ lineHeight: '3' }}>Editing Suite</Link>
                             </li>
                             <li>
-                              <Link to="/living-room-hall" className="hover-primary" style={{ lineHeight: '3' }}>Living Room Hall</Link>
+                              <Link to="/dubbing-studios" className="hover:text-[#3E4095]" style={{ lineHeight: '3' }}>Dubbing Studios</Link>
                             </li>
                             <li>
-                              <Link to="/false-ceiling" className="hover-primary" style={{ lineHeight: '3' }}>False Ceiling</Link>
+                              <Link to="/audio-mixing" className="hover:text-[#3E4095]" style={{ lineHeight: '3' }}>Audio Mixing</Link>
                             </li>
-                            <li>
-                              <Link to="/cupboard-wardrobes" className="hover-primary" style={{ lineHeight: '3' }}>Cupboards/Wardrobes</Link>
-                            </li>
-                            <li>
-                              <Link to="/dining-room" className="hover-primary" style={{ lineHeight: '3' }}>Dining Room</Link>
-                            </li>
-                            <li>
-                              <Link to="/toilet-bathroom" className="hover-primary" style={{ lineHeight: '3' }}>Toilet/Bathroom</Link>
-                            </li>
-                            <li>
-                              <Link to="/tv-show-case" className="hover-primary" style={{ lineHeight: '3' }}>TV show case</Link>
-                            </li>
-                            <li>
-                              <Link to="/study-room" className="hover-primary" style={{ lineHeight: '3' }}>Study Room</Link>
-                            </li>
-                            <li>
-                              <Link to="/pooja-room" className="hover-primary" style={{ lineHeight: '3' }}>Pooja Room</Link>
-                            </li>
-                            <li>
-                              <Link to="/bedroom" className="hover-primary" style={{ lineHeight: '3' }}>Bedroom</Link>
-                            </li>
-
                           </ul>
                         </div>
                       )}

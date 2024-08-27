@@ -49,9 +49,9 @@ const OrderPopup = ({ orderPopup, setOrderPopup, timeoutReq, type }) => {
     let timeoutId;
 
     if (initialCall) {
-      timeoutId = setInterval(popupFunction, 55000)
+      timeoutId = setInterval(popupFunction, 30000)
     } else {
-      timeoutId = setInterval(popupFunction, 6000);
+      timeoutId = setInterval(popupFunction, 95000);
     }
 
     return () => {
@@ -77,11 +77,11 @@ const OrderPopup = ({ orderPopup, setOrderPopup, timeoutReq, type }) => {
   };
 
   const options = [
-    { value: "option1", label: "Building construction" },
-    { value: "option2", label: "Interior design" },
-    { value: "option3", label: "Renovation" },
-    { value: "option4", label: "Painting" },
-    { value: "option5", label: "Multi-turf construction" },
+    { value: "option1", label: "Film Cameras" },
+    { value: "option2", label: "Camera Lenses" },
+    { value: "option3", label: "Lens Filters" },
+    { value: "option4", label: "Lights and Grips" },
+    { value: "option5", label: "Other Services" },
   ];
 
   const customStyles = {
@@ -126,19 +126,21 @@ const OrderPopup = ({ orderPopup, setOrderPopup, timeoutReq, type }) => {
                 ENQUIRE NOW
               </h1>
               <IoCloseOutline
-                className="text-2xl cursor-pointer absolute right-0 top-0"
+                className="text-2xl cursor-pointer text-black absolute right-0 top-0"
                 onClick={() => setOrderPopup(false)}
               />
             </div>
             <div className="mt-2">
               <div className="flex items-center justify-center mb-2">
-                <IoMailOutline className="text-xl" />
-                <a className="text-gray-600 hover-primary underline" href="mailto:enquiries@infratechbuilders.in" target="_blank" rel="noopener noreferrer">enquiries@infratechbuilders.in</a>
+                <IoMailOutline className="text-xl text-black" />
+                <a className="text-black hover:text-[#3E4095] underline" href="mailto:sriramstudioschennai@gmail.com" target="_blank" rel="noopener noreferrer">
+  sriramstudioschennai@gmail.com
+</a>
               </div>
               <div className="flex items-center justify-center mb-2">
                 <IoCallOutline className="text-xl" />
-                <a className="text-gray-600 hover-primary underline" href="tel:+917092805747" target="_blank" rel="noopener noreferrer">+91 7092805747</a>
-                <a className="text-gray-600 hover-primary underline" href="tel:+917010332274" target="_blank" rel="noopener noreferrer">+91 7010332274</a>
+                <a className="text-black hover:text-[#3E4095] underline" href="tel:04423751935" target="_blank" rel="noopener noreferrer">044 23751935</a>
+                <a className="text-black hover:text-[#3E4095] underline" href="tel:+919840041312" target="_blank" rel="noopener noreferrer">+91 9840041312</a>
               </div>
               <form onSubmit={handleFormSubmit}>
                 <input
@@ -177,7 +179,7 @@ const OrderPopup = ({ orderPopup, setOrderPopup, timeoutReq, type }) => {
                       ...customStyles,
                       option: (provided, state) => ({
                         ...provided,
-                        backgroundColor: state.isFocused ? 'orange' : 'white',
+                        backgroundColor: state.isFocused ? '#3E4095' : 'white',
                         color: state.isFocused ? 'white' : 'black',
                       }),
                     }}

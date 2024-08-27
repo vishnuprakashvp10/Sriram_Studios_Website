@@ -14,20 +14,20 @@ const FooterLinks = [
     link: "/film-camera-units",
   },
   {
-    title: "Home Interior",
-    link: "/overview-home-interiors",
+    title: "Lights and Grips",
+    link: "/lights-and-grips",
   },
   {
-    title: "Renovation Services",
-    link: "/renovation-services",
+    title: "Lens Filters",
+    link: "/lens-filters",
   },
   {
-    title: "Painting Services",
-    link: "/painting-services",
+    title: "Camera Lenses",
+    link: "/camera-lenses",
   },
   {
-    title: "Multi-Turf Construction",
-    link: "/multi-turf-construction",
+    title: "Genset Rentals",
+    link: "/genset",
   },
   {
     title: "Privacy Policy",
@@ -103,23 +103,24 @@ const Footer = () => {
             <div className="flex hover:text-primary/90 items-center gap-3">
               <IoLocation size={64} />
               <a
-                href="https://www.google.com/maps/place/13%C2%B004'23.7%22N+80%C2%B011'12.0%22E/@13.0732603,80.1841011,17z/data=!3m1!4b1!4m4!3m3!8m2!3d13.0732603!4d80.186676?hl=en&entry=ttu"
+                href="https://maps.app.goo.gl/vCnnz7TuGXoiwuieA"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <p className="text-sm sm:text-base hover:text-primary/90 underline">
-                  Door no: 74, Ettiappan street, Golden George Nagar, Nerkundram, Chennai-600107
+                New no:161, Rangarajapuram Main Road, Kodambakkam, Chennai.600024
                 </p>
               </a>
             </div>
             <div className="flex items-center hover:text-primary/90 ml-1 ">
               <FaMobileAlt size={20} />
               <div className="flex items-center ml-1 mt-2 flex-col">
-                <a href="tel:+917092805747" className="text-sm hover:text-primary/90 sm:text-base underline">
-                  +917092805747
+                <a href="tel:04423751935" className="text-sm hover:text-primary/90 sm:text-base underline">
+                044 23751935
+                
                 </a>
-                <a href="tel:+917010332274" className="text-sm hover:text-primary/90 sm:text-base underline">
-                  +917010332274
+                <a href="tel:+919840041312" className="text-sm hover:text-primary/90 sm:text-base underline">
+                91 9840041312
                 </a>{" "}
               </div>
             </div>
@@ -129,22 +130,22 @@ const Footer = () => {
             <div className="flex items-center gap-3">
               <IoLocation size={64} />
               <a
-                href="https://www.google.com/maps?q=Door+no:74+Ettiappan+street+Golden+George+Nagar+Nerkundram+Chennai-600107"
+                href="https://maps.app.goo.gl/vCnnz7TuGXoiwuieA"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <p className="text-sm sm:text-base underline">
-                  Door no: 74, Ettiappan street, Golden George Nagar, Nerkundram, Chennai-600107
+                New no:161, Rangarajapuram Main Road, Kodambakkam, Chennai-600024
                 </p>
               </a>
             </div>
             <div className="flex items-center ml-1.5">
               <FaMobileAlt size={20} />
-              <a href="tel:+91 7092805747" className="text-sm ml-3 underline">
-                +91 7092805747
+              <a href="tel:04423751935" className="text-sm ml-3 underline">
+              044 23751935
               </a>
-              <a href="tel:+91 7010332274" className="text-sm  underline">
-                +91 7010332274
+              <a href="tel:+919840041312" className="text-sm  underline">
+              91 9840041312
               </a>
             </div>
           </div>
@@ -187,11 +188,11 @@ const Footer = () => {
     style={{ backgroundColor: '' }}
   >
     <option value="">Select a Service</option>
-    <option value="Building construction">Building construction</option>
-    <option value="Interior design">Interior design</option>
-    <option value="Renovation">Renovation</option>
-    <option value="Painting">Painting</option>
-    <option value="Multi-turf construction">Multi-turf construction</option>
+    <option value="Film Cameras">Film Cameras</option>
+    <option value="Camera Lenses">Camera Lenses</option>
+    <option value="Lens Filters">Lens Filters</option>
+    <option value="Lights and Grips">Lights and Grips</option>
+    <option value="Other Services">Other Services</option>
   </select>
 </div>
 
@@ -214,15 +215,6 @@ const Footer = () => {
           {showThankYouPopup && <ThankYouPopup setShowThankYouPopup={setShowThankYouPopup} />}
         </div>
       </div>
-      <div className="text-center py-6 ">
-      <p className="text-bold text-lg text-black underline transition-all duration-300">
-        <a href="https://www.mitochondigital.com/"
-        target="_blank"
-        rel="noopener noreferrer">
-        Designed and Developed by  
-        Mitochon Digital</a> 
-      </p>
-    </div>
     </div>
   );
 };

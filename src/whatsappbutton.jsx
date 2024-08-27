@@ -2,7 +2,7 @@ import React from "react";
 import { FaWhatsapp } from "react-icons/fa";
 
 const WhatsAppButton = () => {
-  const whatsappLink = "https://wa.me/+917092805747";
+  const whatsappLink = "https://wa.me/+919840041312";
 
   return (
     <a

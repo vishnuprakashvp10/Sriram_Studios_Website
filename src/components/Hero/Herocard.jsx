@@ -58,8 +58,8 @@ const Herocard = () => {
             SRIRAM STUDIOS - All In One Production Services in Chennai
             </h1>
             <p className="text-center text-bold py-4 text-white">
-            Looking to transform your dream home into a reality? Infratech Builders, a leading construction and interior design firm in Chennai, Tamil Nadu, is your one-stop solution. We offer a comprehensive range of services, encompassing architectural design, meticulous construction, stunning interior design, cutting-edge smart home integration, and sustainable energy-efficient solutions – all under one roof.  Driven by a passion for innovation and unwavering commitment to quality, our team of experts brings your visions to life, crafting exceptional spaces that not only meet your needs but also inspire you to live your best life.
-            </p>
+            Sriram Studios is a leading film post-production company in Chennai, Tamil Nadu, offering a full spectrum of services designed exclusively for seasoned professionals in the film industry. Our range includes comprehensive digital camera rental services, ensuring you have the top-tier gear you need for cinematic excellence. In addition to our camera services, we specialize in film lights rentals, filters rentals, gensets, lens rentals, and advanced post-production services such as dubbing, mixing, and green matte studio work.
+                                    </p>
           </div>
         </div>
       </div>

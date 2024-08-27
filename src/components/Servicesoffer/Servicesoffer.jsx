@@ -14,8 +14,8 @@ const Servicesoffer = ({ reverse, img, title, description, description2, handleO
                 reverse ? "md:order-last" : ""
               } `}
             >
-              <h1 className="md:text-5xl text-3xl mx-auto font-bold text-black mt-2">{title}</h1>
-              <p className="py-4 max-w-[600px] text-black">
+              <h1 className="md:text-5xl text-3xl mx-auto font-bold text-primary mt-2">{title}</h1>
+              <p className="py-4 max-w-[600px] text-white">
                 {description}
                 <span className="text-primary">{description2}</span>
               </p>

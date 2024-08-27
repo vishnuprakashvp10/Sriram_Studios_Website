@@ -4,14 +4,14 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image1 from "../../assets/Hero/alexa-lf.webp";
 import Image2 from "../../assets/Hero/alexa-s35.jpg";
-import Image3 from "../../assets/Hero/slider-image2.jpg";
-import Image4 from "../../assets/Hero/herotext2.jpg";
-import Image5 from  "../../assets/Hero/paintingslider.jpg";
-import Image6 from "../../assets/Hero/herotext3.jpg";
-import Image7 from "../../assets/Hero/renoslider.jpg";
-import Image8 from "../../assets/Hero/herotext4.jpg";
-import Image9 from "../../assets/Hero/turfhomehero.jpg";
-import Image10 from "../../assets/Hero/herotext5.jpg";
+import Image3 from "../../assets/Hero/alexa-sxt.jpg";
+import Image4 from "../../assets/Hero/alexa-minilf.webp";
+import Image5 from  "../../assets/Hero/sony-venice2.webp";
+import Image6 from "../../assets/Hero/red-gemini.jpeg";
+import Image7 from "../../assets/Hero/red-helium.jpg";
+import Image8 from "../../assets/Hero/sony-fx9.webp";
+import Image9 from "../../assets/Hero/sony-venice1.jpg";
+import Image10 from "../../assets/Hero/red-raptor.jpg";
 
 const ImageList = [
  {
@@ -67,7 +67,7 @@ const Hero = ({ handleOrderPopup }) => {
     speed: 800,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 2500,
     cssEase: "ease-in-out",
     pauseOnHover: false,
     pauseOnFocus: true,
@@ -94,7 +94,7 @@ const Hero = ({ handleOrderPopup }) => {
                     <img
                       src={data.img}
                       alt=""
-                      className="md:h-[600px] md:w-[1400px] h-[220px] w-[330px] object-cover object-center sm:object-contain lg:object-cover"
+                      className="md:h-[500px] md:w-[1000px] h-[220px] w-[330px] object-cover object-center sm:object-contain lg:object-cover"
                     />
                   </div>
                 </div>

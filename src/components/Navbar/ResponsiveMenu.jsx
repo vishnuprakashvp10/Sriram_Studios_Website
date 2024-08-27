@@ -17,96 +17,71 @@ const Menu = [
   },
   {
     id: 4,
-    name: "Interior Designs",
+    name: "Media Production",
     dropdownLinks: [
       {
         id: 1,
-        name: "Home Interior Designs",
+        name: "Post Production Suite",
         dropdownLinks: [ 
           {
             id: 1,
-            name: "Overview",
-            link: "/overview-home-interiors",
+            name: "Green Matte Studio",
+            link: "/green-matte-studio",
           },
           {
             id: 2,
-            name: "Modular Kitchen",
-            link: "/modular-kitchen",
+            name: "Editing Suite",
+            link: "/editing-suite",
           },
           {
             id: 3,
-            name: "Living Room Hall",
-            link: "/living-room-hall",
+            name: "Dubbing Studios",
+            link: "/dubbing-studios",
           },
           {
             id: 4,
-            name: "False Ceiling",
-            link: "/false-ceiling",
-          },
-          {
-            id: 5,
-            name: "Cupboards/Wardrobes",
-            link: "/cupboard-wardrobes",
-          },
-          {
-            id: 6,
-            name: "Dining Room",
-            link: "/dining-room",
-          },
-          {
-            id: 7,
-            name: "Toilet/Bathroom",
-            link: "/toilet-bathroom",
-          },
-          {
-            id: 8,
-            name: "TV show case",
-            link: "/tv-show-case",
-          },
-          {
-            id: 9,
-            name: "Study Room",
-            link: "/study-room",
-          },
-          {
-            id: 10,
-            name: "Pooja Room",
-            link: "/pooja-room",
-          },
-          {
-            id: 11,
-            name: "Bedroom",
-            link: "/bedroom",
+            name: "Audio Mixing",
+            link: "/audio-mixing",
           },
         ]
       },
       {
         id: 2,
-        name: "Commercial Interior Designs",
-        link: "/commercial-interior-designs",
+        name: "Multi-Camera-Setup",
+        link: "/multi-camera-setup",
       },
     ],
   },
   {
     id: 3,
-    name: "Other Services",
+    name: "Equipment Rentals",
     dropdownLinks: [
       {
         id: 1,
-        name: "Multi-Turf Construction",
-        link: "/multi-turf-construction",
+        name: "Lights and Grips",
+        link: "/lights-and-grips",
       },
       {
         id: 2,
-        name: "Painting Services",
-        link: "/painting-services",
+        name: "Lens Filters",
+        link: "/lens-fileters",
       },
       {
         id: 3,
-        name: "Renovation Services",
-        link: "/renovation-services",
+        name: "Camera Lenses",
+        link: "/camera-lenses",
       },
-    ],
+    {
+      id: 4,
+      name: "Genset",
+      link: "/genset",
+    },
+    {
+      id: 5,
+      name: "Projector and Screens",
+      link: "/projector-and-screens",
+    },
+  ],
   },
   {
     id: 5,
@@ -163,7 +138,7 @@ const ResponsiveMenu = ({ showMenu, toggleMenu, handleOrderPopup }) => {
                   <div className="group relative cursor-pointer">
                     <Link
                       to={data.link}
-                      className={`flex justify-between px-6 items-center gap-[2px] py-1 hover:text-primary/75 ${data.name === "Other Services" ? "mr-4" : ""}`}
+                      className={`flex justify-between px-6 items-center gap-[2px] py-1 hover:text-primary ${data.name === "Equipment Rentals" ? "mr-4" : ""}`}
                       onClick={() => handleMenuItemClick(data.id)}
                     >
                       {data.name}
@@ -178,7 +153,7 @@ const ResponsiveMenu = ({ showMenu, toggleMenu, handleOrderPopup }) => {
                     <div
                       className={`absolute z-[9999] ${
                         openDropdown === data.id ? "block" : "hidden"
-                      } w-[250px] rounded-md bg-white p-4 text-black shadow-md `}
+                      } w-[250px] rounded-md bg-white p-5 text-black shadow-md `}
                     >
                       <ul>
                         {data.dropdownLinks.map((dropdownData) => (
@@ -187,7 +162,7 @@ const ResponsiveMenu = ({ showMenu, toggleMenu, handleOrderPopup }) => {
                               <div className="group relative cursor-pointer">
                                 <Link
                                   to={dropdownData.link}
-                                  className="flex justify-center items-center p-1 gap-[2px] py-1 hover:text-primary/75"
+                                  className="flex justify-center items-center p-1 gap-[2px] py-1 hover:text-primary"
                                   onClick={() => handleNestedDropdownClick(dropdownData.id)}
                                 >
                                   {dropdownData.name}
