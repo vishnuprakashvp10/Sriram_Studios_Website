@@ -37,10 +37,6 @@ const FooterLinks = [
     title: "FAQ",
     link: "/faq",
   },
-  {
-    title: "Blog Post",
-    link: "/blog-post",
-  }
 ];
 
 const Footer = () => {

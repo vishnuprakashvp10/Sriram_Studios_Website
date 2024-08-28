@@ -11,15 +11,12 @@ const Turfconstructionweprovide = ({ reverse, img, title, description, descripti
                 reverse ? "md:order-last" : ""
               } `}
             >
-              <h1 className="md:text-3xl text-2xl mx-auto font-bold text-black xl:text-4xl">
+              <h1 className="md:text-3xl text-2xl mx-auto font-bold text-primary xl:text-4xl">
                 {title}
               </h1>
 
-              <p className="py-2 max-w-[600px] text-black text-xs sm:text-sm md:text-sm lg:text-sm xl:text-base">
+              <p className="py-2 max-w-[600px] text-white text-xs sm:text-sm md:text-sm lg:text-sm xl:text-base">
                 {description}
-              </p>
-              <p className="py-2 max-w-[600px] text-black text-xs sm:text-sm md:text-sm lg:text-sm xl:text-base">
-                {description2}
               </p>
               <div></div>
               <div className="mx-auto space-x-4">

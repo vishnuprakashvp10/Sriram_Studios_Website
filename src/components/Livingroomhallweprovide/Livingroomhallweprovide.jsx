@@ -1,89 +1,47 @@
 import React, { useState } from 'react';
-import Img1 from "../../assets/Hero/livingfalse.jpg";
-import Img2 from "../../assets/Hero/tvunit.jpg";
-import Img3 from "../../assets/Hero/modernstyle.jpg";
-import Img4 from "../../assets/Hero/minimal.jpg";
-import Img5 from "../../assets/Hero/contem.jpg";
-import Img6 from "../../assets/Hero/Eclectic.jpg";
-import Img7 from "../../assets/Hero/traditional.jpg";
-import Img8 from "../../assets/Hero/vintage.jpg";
-import Img9 from "../../assets/Hero/retro.jpg";
-import Img10 from "../../assets/Hero/rustic.jpg";
-import Img11 from "../../assets/Hero/classic.jpg";
-import Img12 from "../../assets/Hero/countrydream.jpg";
+import Img1 from "../../assets/Hero/nuendo-audio.jpg";
+import Img2 from "../../assets/Hero/sound-engineer.jpg";
+import Img3 from "../../assets/Hero/acoustic-room.jpeg";
+import Img4 from "../../assets/Hero/flexible-recording.jpg";
+import Img5 from "../../assets/Hero/comp-post-production.jpg";
+import Img6 from "../../assets/Hero/audio-mix-last.jpg";
 
 const LivingroomhallweprovideData = [
   {
     id: 1,
     img: Img1,
-    name: "Living Room False Ceiling",
-    text: "Imagine cascading cove lighting bathing your room in a warm glow, geometric shapes adding drama, or hidden compartments revealing playful surprises. False ceilings transform ordinary spaces into captivating havens, enhancing acoustics, concealing distractions, and boosting visual appeal.",
+    name: "NUENDO-3 Audio Workstation",
+    text: "Our dubbing studio is powered by NUENDO-3, a highly advanced digital audio workstation designed for professional audio post-production. This industry-standard tool ensures precision editing, mixing, and mastering, allowing for seamless integration of voiceovers and sound effects.",
   },
   {
     id: 2,
-    name: "TV Showcase Entertainment Units",
-    text: "Ditch the bulky stand!  Transform your living room into a modern marvel with our bespoke TV showcase units. These aren't just cabinets, they're sculpted centerpieces that seamlessly blend function and form (think sleek lines and hidden cable magic ). Your media gets a stylish stage, while your space gains instant sophistication.",
+    name: "Expert Sound Engineers",
+    text: "Our team of highly skilled sound engineers has years of experience in the film industry, providing expert-level audio production services. From mixing and mastering to voice synchronization, we ensure every project is handled with precision and creativity. Our attention to detail ensures that every layer of sound is flawlessly integrated enhancing the overall production quality.",
     img: Img2,
   },
   {
     id: 3,
-    name: "Modern Style Living Rooms",
-    text: "Crave a living room that's as sharp as your style. We craft modern havens with sleek lines, bold pops, and lighting that sets the mood. Ditch the ordinary, embrace the chic, the streamlined, the utterly now. Let Infratech Builders design your modern masterpiece.",
+    name: "Acoustically Treated Studios",
+    text: "Our studios are designed with acoustics in mind, ensuring optimal sound isolation and clarity. The controlled environment guarantees that every sound element in your project is recorded and mixed to perfection, free from external noise interference. The result is crystal-clear audio that enhances the storytelling experience and elevates your production to new heights.",
     img: Img3,
   },
   {
     id: 4,
-    name: "Minimalist Aesthetic Living Rooms",
-    text: "Less is more meets modern marvel. We craft calm sanctuaries with sleek lines, hushed tones, and light that dance in. Ditch the clutter, embrace the clean, the functional, the utterly serene—Infratech Builders: designing your minimalist masterpiece. ",
+    name: "Flexible Recording Spaces",
+    text: "We know that every production has unique needs, and that’s why we offer a variety of recording spaces to suit any project. From spacious, multi-purpose rooms for large ensemble recordings to more intimate booths for individual voiceover work, Sriram Studios provides an environment tailored to your requirements.We make sure that the space and atmosphere are perfectly suited to the creative process.",
     img: Img4,
   },
   {
     id: 5,
-    name: "Contemporary Style Living Rooms",
-    text: "Explore our interior design services for contemporary living rooms, highlighting clean lines, minimalism, and a chic aesthetic. Our team integrates modern furniture, neutral color palettes, and innovative design elements to craft a sophisticated, stylish living space that embraces current trends.s",
+    name: "Comprehensive Post-Production Support",
+    text: "In addition to dubbing and mixing, Sriram Studios offers complete post-production services, including sound editing, Foley, and ADR (Automated Dialogue Replacement). We ensure a seamless audio experience that complements your visual storytelling. We guarantee a seamless audio experience that elevates the quality",
     img: Img5,
   },
   {
     id: 6,
-    name: "Eclectic Living Rooms",
-    text: "Celebrate individuality and creative expression with our interior design services for eclectic living rooms. Our expertise lies in artfully mixing various styles, patterns, and colors, creating a vibrant and visually captivating living space that reflects your unique personality and tastes.",
+    name: "Industry-Leading Equipment",
+    text: "Sriram Studios is equipped with the latest technology, including cutting-edge microphones, speakers, and sound processing systems. We invest in top-tier equipment to deliver the highest audio quality possible for your films, TV shows, and ads. Our advanced technology enables us to produce outstanding results.",
     img: Img6,
-  },
-  {
-    id: 7,
-    img: Img7,
-    name: "Traditional Living Room Sanctuary",
-    text: "Specializing in traditional-style living rooms, we honor classic design principles. Our interior design services meticulously craft a harmonious balance between timeless furniture, rich colors, and intricate detailing, resulting in an elegant and welcoming atmosphere within your living space.",
-  },
-  {
-    id: 8,
-    name: "Vintage Living Room",
-    text: "Embracing the charm and character of bygone eras, our interior design services for vintage-style living rooms curate antique and vintage furniture pieces. We incorporate vintage-inspired decor and employ soft, muted color palettes to create a romantic and timeless ambiance in your living area.",
-    img: Img8,
-  },
-  {
-    id: 9,
-    name: "Dream Retro Living Room",
-    text: "Explore our interior design services for retro-style living rooms, celebrating the bold and vibrant designs of the past. Our team skillfully blends vintage furniture, funky patterns, and pops of bright colors to create a playful and nostalgic atmosphere in your living space.",
-    img: Img9,
-  },
-  {
-    id: 10,
-    name: "Rustic Living Room Retreat",
-    text: "Discover the beauty of natural materials and textures with our interior design services for rustic-style living rooms. We craft cozy and inviting spaces by incorporating elements like exposed wood beams, stone accents, and earthy color schemes, creating a warm and welcoming ambiance in your living area.",
-    img: Img10,
-  },
-  {
-    id: 11,
-    name: "Classic Living Room",
-    text: "We specialize in classic-style living rooms and excel in designing spaces that exude elegance and sophistication. Our interior design services prioritize incorporating timeless furniture pieces, refined color palettes, and intricate details to create a luxurious and refined atmosphere in your living space.",
-    img: Img11,
-  },
-  {
-    id: 12,
-    name: "Dream Country Living Room",
-    text: "Experience the warmth and charm of country-style living rooms with our interior design services. We craft inviting spaces that embrace rustic charm and natural elements, incorporating cozy furniture, earthy colors, and traditional patterns to evoke a sense of comfort and relaxation in your living area.",
-    img: Img12,
   },
 ];
 
@@ -106,8 +64,8 @@ const Livingroomhallweprovide = ({ handleOrderPopup }) => {
                 />
               </div>
               <div className="p-4 text-center">
-                <h1 className="text-xl font-bold">{service.name}</h1>
-                <p className="text-gray-500 group-hover:text-white duration-high text-sm ">
+                <h1 className="text-xl text-primary group-hover:text-white  font-bold">{service.name}</h1>
+                <p className="text-black group-hover:text-white duration-high text-sm ">
                   {service.text}
                 </p>
                 <button

@@ -35,8 +35,7 @@ const OrderPopup = ({ orderPopup, setOrderPopup, timeoutReq, type }) => {
     if (
       location.pathname === "/contact-us" ||
       location.pathname === "/privacy-policy" ||
-      location.pathname === "/faq" ||
-      location.pathname === "/blog-post"
+      location.pathname === "/faq"
     ) return;
     const popupFunction = () => {
       if (document.getElementById("contact-form")) return;
@@ -50,10 +49,7 @@ const OrderPopup = ({ orderPopup, setOrderPopup, timeoutReq, type }) => {
 
     if (initialCall) {
       timeoutId = setInterval(popupFunction, 50000)
-    } else {
-      timeoutId = setInterval(popupFunction, 125000);
-    }
-
+    } 
     return () => {
       clearInterval(timeoutId);
     };
@@ -126,7 +122,7 @@ const OrderPopup = ({ orderPopup, setOrderPopup, timeoutReq, type }) => {
                 ENQUIRE NOW
               </h1>
               <IoCloseOutline
-                className="text-2xl cursor-pointer text-black absolute right-0 top-0"
+                className="text-2xl cursor-pointer text-primary absolute right-0 top-0"
                 onClick={() => setOrderPopup(false)}
               />
             </div>
@@ -138,7 +134,7 @@ const OrderPopup = ({ orderPopup, setOrderPopup, timeoutReq, type }) => {
 </a>
               </div>
               <div className="flex items-center justify-center mb-2">
-                <IoCallOutline className="text-xl" />
+                <IoCallOutline className="text-xl text-black" />
                 <a className="text-black hover:text-[#3E4095] underline" href="tel:04423751935" target="_blank" rel="noopener noreferrer">044 23751935</a>
                 <a className="text-black hover:text-[#3E4095] underline" href="tel:+919840041312" target="_blank" rel="noopener noreferrer">+91 9840041312</a>
               </div>

@@ -14,16 +14,16 @@ const Cupboard = () => {
 
   const handleOrderPopup = () => {
     if (isMobile) {
-      window.location.href = `tel:+917092805747`;
+      window.location.href = `tel:+04423751935`;
       return null;
     }
     setShowOrderPopup(!showOrderPopup);
   };
   return (
-    <div>
+    <div className="bg-black text-white">
       <Helmet>
-        <title>Cupboard & Wardrobe Designers in Chennai &#124; Infratech Builders</title>
-        <meta name='description' content='Infratech Builders in Chennai specializes in crafting elegant and functional cupboards and wardrobes, seamlessly blending style and functionality. Enquire now.'/>
+        <title>Lens Filters &#124; Sriram Studios</title>
+        <meta name='description' content="Enhance your film and photography with our premium filters, providing precise control over light and color for perfect shots." />
       </Helmet>
       <WhatsAppButton />
       <Cupboardhero

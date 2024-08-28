@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { RxDotFilled } from 'react-icons/rx';
-import Image1 from "../../assets/Hero/cupboardheroblock.jpg";
+import Image1 from "../../assets/Hero/lens-filters-hero.jpg";
 
 const ImageList = [
   {
-    id: 1,
+    id: 1, 
     img: Image1,
   },
 
@@ -16,19 +16,7 @@ const Cupboardhero = ({ handleOrderPopup }) => {
       <div
         className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
         style={{ backgroundImage: `url(${ImageList[0].img})` }}
-      >
-       <div className=' absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white w-[300px] md:w-[600px]   '>
-        </div> 
-        <div className="mx-auto justify-center item-center space-x-4 absolute bottom-[40px] md:bottom-[100px] left-1/2 transform -translate-x-1/2">
-          <button
-            onClick={handleOrderPopup}
-            className="bg-gradient-to-r  from-primary to-secondary hover:scale-110 duration-200 text-white py-2 px-4 md:py-4 md:px-6 rounded-full"
-          >
-            Call Now
-          </button>
-        </div>  
-        
-            
+      >           
       </div>
       <div className='flex top-10 justify-center py-2'>
         {ImageList.map((slide, slideIndex) => (
@@ -43,7 +31,7 @@ const Cupboardhero = ({ handleOrderPopup }) => {
       <div className="flex items-center justify-center">
         <div className="text-center  w-[900px]">
           <h1 className="text-3xl text-primary font-bold">
-          CUPBOARD AND WARDROBE DESIGNERS IN CHENNAI
+          LENS FILTERS
           </h1>
         </div>
       </div>

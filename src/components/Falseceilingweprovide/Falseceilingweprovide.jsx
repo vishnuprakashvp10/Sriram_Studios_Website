@@ -11,8 +11,8 @@ const Falseceilingweprovide = ({ reverse, img, title, description, handleOrderPo
                 reverse ? "md:order-last" : ""
               } `}
             >
-              <h1 className="md:text-5xl text-4xl mx-auto font-bold text-black">{title}</h1>
-              <p className="=font-bold py-4 max-w-[600px] mx-auto text-black">
+              <h1 className="md:text-5xl text-4xl mx-auto font-bold text-primary">{title}</h1>
+              <p className="=font-bold py-4 max-w-[600px] mx-auto text-white">
                 {description}
               </p>
               <div>

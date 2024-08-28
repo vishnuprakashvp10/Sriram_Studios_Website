@@ -4,11 +4,9 @@ const Turfconstructionweprovidetext = () => {
   return (
     <div className="flex items-center justify-center md:mt-2 mt-10 ">
     <div className="text-center  w-[450px] md:w-[1200px] ">
-      <p className="text-bold py-4 text-black">
-      Infratech Builders excels in the specialized field of turf construction, serving as premier turf contractors for a range of projects. With expertise in football turf construction and Multi-sports turf development, Infratech Builders brings precision and innovation to the field. As experts in turf building, We prioritize creating durable and high-quality surfaces tailored to the unique demands of sports. Whether for recreational or professional use, Infratech Builders is the trusted choice for delivering top-notch solutions in the realm of turf construction.   
-      <span className="text-primary">
-            <a href="/contact-us">  Contact Infratech Builders today!</a>
-          </span>   </p>    </div>
+      <p className="text-bold py-4 text-white">
+      At Sriram Studios in Chennai, we offer premium lights and grips services to elevate your film, commercial, or event production. Our extensive range of professional lighting and grip equipment is designed to meet the highest standards, ensuring optimal performance and versatility for any project. Our experienced team provides expert support and consultation to help you select the right equipment and setup for your specific needs. Whether you are shooting a feature film, a high-profile commercial, or a live event, our top-notch lights and grips solutions enhance every aspect of your production.
+        </p>    </div>
   </div> )
 }
 

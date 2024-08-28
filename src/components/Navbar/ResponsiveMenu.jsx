@@ -64,7 +64,7 @@ const Menu = [
       {
         id: 2,
         name: "Lens Filters",
-        link: "/lens-fileters",
+        link: "/lens-filters",
       },
       {
         id: 3,

@@ -4,11 +4,9 @@ const Paintingservicesweprovidetext = () => {
   return (
     <div className="flex items-center justify-center mb-8 ">
     <div className="text-center w-[350px] md:w-[1200px] ">
-      <p className="text-bold py-4 text-black">
-      At Infratech, we offer quality painting services to enhance your space. Our skilled team ensures a smooth and professional painting process, from careful preparation to using top-notch paints for a lasting finish. Whether it's refreshing your home's interior, updating the exterior, or adding color to your commercial property, we've got you covered. Count on us for a straightforward and reliable solution to bring your vision to life with precision and excellence.
-      <span className="text-primary">
-            <a href="/contact-us">  Contact Infratech Builders today!</a>
-          </span></p>
+      <p className="text-bold py-4 text-white">
+      Our lens filters offer precision and flexibility for professional film and photography. Enhance your visual projects with filters designed to control light, color, and reflections. From polarizers to ND filters, our high-quality selection helps you achieve the perfect shot and elevate your creative vision. Trust our expertise to provide the tools you need for exceptional image quality and artistic expression.
+</p>
     </div>
   </div>  
   )

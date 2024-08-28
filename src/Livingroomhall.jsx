@@ -15,17 +15,17 @@ const Livingroomhall = () => {
 
   const handleOrderPopup = () => {
     if (isMobile) {
-      window.location.href = `tel:+917092805747`;
+      window.location.href = `tel:+04423751935`;
       return null;
     }
     setShowOrderPopup(!showOrderPopup);
   };
   return (
-    <div>
+    <div className="bg-black text-white">
 
       <Helmet>
-        <title>Living Room Designers in Chennai &#124; Infratech Builders</title>
-        <meta name='description' content='Discover the art of living in Chennai with Infratech Builders, where inviting living spaces are crafted by our designers for your ultimate comfort. Enquire today!' />
+        <title>Audio Mixing Studios in Chennai &#124; Sriram Studios</title>
+        <meta name='description' content='Experience professional audio mixing services at Sriram Studios in Chennai. Our state-of-the-art mixing studios provide top-tier sound quality for your projects.' />
       </Helmet>
       <WhatsAppButton />
       <Livingroomhallhero
@@ -34,7 +34,6 @@ const Livingroomhall = () => {
       <Livingroomhallweprovide
         handleOrderPopup={handleOrderPopup} />
       <OrderPopup orderPopup={showOrderPopup} setOrderPopup={setShowOrderPopup} type={"Living Room"} />
-
       <Exploredesigns />
       <Callusbanner />
     </div>

@@ -83,9 +83,9 @@ const Exploredesignscard = [
   {
     id: 10,
     img: Img10,
-    name: "Blog Post",
-    link: "/blog-post",    
-    text: "Stay updated with our blog posts, offering insights and tips on film production, post-production, and more.",
+    name: "About",
+    link: "/about-us",    
+    text: "Discover more about Sriram Studios and our commitment to excellence in film production.",
   },
 ];
 

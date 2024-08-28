@@ -4,11 +4,9 @@ const Commercialweprovidetext = () => {
     return (
         <div className="flex items-center justify-center mb-8 ">
         <div className="text-center md:mt-0 mt-6 w-[350px] md:w-[1200px] ">
-          <p className="text-bold py-14 md:py-6  text-black">
-          Infratech Builders: Big impact, small team. Transforming Chennai's commercial spaces, one masterpiece at a time. We're not your average Chennai interior giants. We're a nimble, passionate team of design dynamos and expert builders, crafting stunning commercial spaces that punch way above their weight. Think beyond beige boxes. We breathe personality into offices, charm into retail, and magic into hospitality venues. Every project is a canvas, and we're the color-wielding artists, ready to paint your brand's story on the walls.          
-          <span className="text-primary">
-            <a href="/contact-us">  Contact Infratech Builders today!</a>
-          </span>   </p>
+          <p className="text-bold py-14 md:py-6  text-white">
+          At Sriram Studios in Chennai, we provide top-tier multi-camera setup services designed for commercial and entertainment projects. Our advanced multi-camera setups are tailored to capture every angle and detail with precision, making them ideal for high-quality film productions, dynamic advertising campaigns, and engaging live events. Our state-of-the-art equipment ensures seamless coordination across multiple cameras, delivering exceptional footage that enhances storytelling and visual impact.
+          </p>
         </div>
       </div>  )
 }

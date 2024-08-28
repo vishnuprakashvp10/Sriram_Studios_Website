@@ -3,18 +3,21 @@ import OrderPopup from "./Popup";
 import Turfconstructionhero from './components/Turfconstruction/Turfconstructionhero'
 import Turfconstructionweprovidetext from './components/Turfconstruction/Turfconstructionweprovidetext'
 import Turfconstructionweprovide from './components/Turfconstruction/Turfconstructionweprovide'
-import Turfotherservices from './components/Turfconstruction/Turfotherservices'
 import Exploredesigns from './components/Exploredesigns/Exploredesigns'
-import Banner1 from './assets/Hero/footballturf.jpg';
-import Banner2 from './assets/Hero/crickturf.jpg';
-import Banner3 from './assets/Hero/tennisturf.jpg';
-import Banner4 from './assets/Hero/badmin.jpg';
-import Banner5 from './assets/Hero/volly.jpg';
+import Banner1 from './assets/Hero/arri-m90.jpg';
+import Banner2 from './assets/Hero/arri-m40.jpg';
+import Banner3 from './assets/Hero/arri-m18.jpg';
+import Banner4 from './assets/Hero/arri-s120.jpg';
+import Banner5 from './assets/Hero/arri-s60.jpg';
+import Banner6 from './assets/Hero/arri-s30.jpg';
+import Banner7 from './assets/Hero/nanlite-forza.jpg';
+import Banner8 from './assets/Hero/apututre-lights.jpg';
+import Banner9 from './assets/Hero/grips.jpg';
 import Callusbanner from './components/Callusbanner/Callusbanner';
 import WhatsAppButton from './whatsappbutton'; 
 import { Helmet } from 'react-helmet-async';
 import { isMobile } from 'react-device-detect';
-
+ 
 
 
 const Turfconstruction = () => {
@@ -22,16 +25,16 @@ const Turfconstruction = () => {
 
   const handleOrderPopup = () => {
     if (isMobile) {
-      window.location.href = `tel:+917092805747`;
+      window.location.href = `tel:+04423751935`;
       return null;
     }
     setShowOrderPopup(!showOrderPopup);
   };
   return (
-    <div>
+    <div className="bg-black text-white">
       <Helmet>
-        <title>Multi-Turf Constructions in Chennai &#124; Infratech Builders</title>
-        <meta name='description' content='Infratech Builders turns your vision into reality, crafting top-quality sports turf for cricket, football, tennis, badminton, and more across Chennai. Enquire today.' />
+        <title>Lights and Grips &#124; Sriram Studios</title>
+        <meta name='description' content='Sriram Studios offers professional lights and grips services in Chennai, providing high quality equipment and support.' />
       </Helmet>
       <WhatsAppButton />
       <Turfconstructionhero
@@ -40,42 +43,62 @@ const Turfconstruction = () => {
       <Turfconstructionweprovide
         handleOrderPopup={handleOrderPopup}
         img={Banner1}
-        title="Football Turf Construction"
-        description="From natural grass to artificial turf, Infratech Builders seamlessly constructs world-class football fields that meet the highest standards of playability and durability. Our team of experts meticulously designs and executes every aspect of the project, ensuring that your football field is not only visually stunning but also ready for countless matches and training sessions."
-        description2="Whether you prefer the natural resilience of grass or the low-maintenance elegance of artificial turf, Infratech Builders has the expertise to bring your vision to life. We'll work closely with you to understand your needs and preferences, ensuring that your football field becomes an integral part of your community's athletic landscape."
+        title="Arri Par Light M90"
+        description="The Arri Par Light M90 delivers exceptional brightness and precision, making it ideal for a wide range of film and television production needs. Its robust design ensures reliable performance, while its powerful output enhances scene detail and depth, allowing for dynamic and visually striking lighting effects."
       />
       <Turfconstructionweprovide
         handleOrderPopup={handleOrderPopup}
         reverse={true}
         img={Banner2}
-        title="Cricket Turf Construction"
-        description="Infratech Builders is a leading construction company that specializes in the construction of high-quality cricket pitches. We use the latest technology and materials to ensure that our cricket pitches are durable and playable year-round."
-        description2="Our cricket pitches are designed to meet the highest standards of playability and safety. We use only the finest quality materials, including high-density sand, topsoil, and turf. Our pitches are also designed to drain well, ensuring that they are playable even after heavy rain."
+        title="Arri Par Light M40"
+        description="The Arri Par Light M40 combines high-quality illumination with versatile functionality, making it an excellent choice for a variety of production environments. Its compact design offers powerful lighting that can be easily adjusted to create dynamic effects and highlight key scene elements."
       />
       <Turfconstructionweprovide
         handleOrderPopup={handleOrderPopup}
         img={Banner3}
-        title="Tennis Turf Construction"
-        description="Infratech Builders stands at the forefront of tennis turf construction, specializing in the creation of premier tennis courts."
-        description2="With a commitment to excellence, Infratech Builders transforms tennis spaces into world-class facilities, offering players top-tier surfaces that elevate their game. Trust us for cutting-edge tennis turf construction that exceeds expectations in durability, playability, and visual appeal."
+        title="Arri Par Light M18"
+        description="The Arri Par Light M18 is a compact yet powerful lighting solution, designed for detailed and precise illumination. Its focused beam is perfect for adding texture and depth to your scenes, making it a versatile choice for close-up shots and small-scale setups."
       />
       <Turfconstructionweprovide
         handleOrderPopup={handleOrderPopup}
         reverse={true}
         img={Banner4}
-        title="Badminton Turf Construction"
-        description="Infratech Builders leads the way in badminton turf construction, providing unmatched expertise in sports pitch construction. As turf contractors with a commitment to excellence, we specialize in transforming spaces with precision and quality."
-        description2="Our comprehensive services encompass all aspects of sports turf construction, ensuring top-tier surfaces that meet the highest standards. For a reliable turf general contracting partner, Infratech Builders stands out, delivering exceptional results in building turf for optimal badminton play."
+        title="Arri Sky Panel 120"
+        description="The Arri Sky Panel 120 offers robust and adjustable lighting for large-scale productions. With its wide coverage and high output, it provides comprehensive illumination for expansive scenes. This panel allows for precise control over color and intensity, making it suitable for a range of lighting needs."
       />
       <Turfconstructionweprovide
         handleOrderPopup={handleOrderPopup}
         img={Banner5}
-        title="Volleyball Turf Construction"
-        description="Experience the pinnacle of volleyball turf construction with Infratech Builders. Our meticulous craftsmanship and expertise ensure top-tier playing surfaces, transforming your court into a haven for volleyball excellence. Choose us for unparalleled design, construction, and performance, elevating your volleyball experience to new heights."
-        description2=""
+        title="Arri Sky Panel 60"
+        description="The Arri Sky Panel 60 delivers high-quality, adjustable lighting with a balance of power and precision. Its versatile design is ideal for medium-sized setups, offering excellent color accuracy and control. Perfect for creating dynamic lighting effects or maintaining consistent illumination"
+      />
+            <Turfconstructionweprovide
+        handleOrderPopup={handleOrderPopup}
+        reverse={true}
+        img={Banner6}
+        title="Arri Sky Panel 30"
+        description="The Arri Sky Panel 30 provides compact, flexible lighting solutions with adjustable intensity and color options. Its smaller size makes it suitable for close-up shots and controlled environments, offering high performance in a compact form. This panel is designed for versatility, delivering reliable and precise lighting."
+      />
+            <Turfconstructionweprovide
+        handleOrderPopup={handleOrderPopup}
+        img={Banner7}
+        title="Nanlite Forza"
+        description="The Nanlite Forza is a high-performance LED light known for its powerful output and exceptional color accuracy. Designed for professional use, the Forza offers versatile lighting options with adjustable intensity and color temperature to suit various shooting environments."
+      />
+                  <Turfconstructionweprovide
+        handleOrderPopup={handleOrderPopup}
+        reverse={true}
+        img={Banner8}
+        title="Aputure (All Models)"
+        description="Aputure lights offer versatile features including adjustable color temperatures, high output, and precise control. Whether for key lighting, fill lighting, or special effects, Aputure’s comprehensive lineup delivers reliable performance and flexibility, making them a top choice for achieving cinematic excellence."
+      />
+                  <Turfconstructionweprovide
+        handleOrderPopup={handleOrderPopup}
+        img={Banner9}
+        title="All Grips"
+        description="We offers a full range of professional grip equipment, ensuring smooth and precise camera movements on set. From stands and rigs to dollies and mounts, our grip gear supports every shot, enabling flawless execution of complex setups for film and video production."
       />
       <OrderPopup orderPopup={showOrderPopup} setOrderPopup={setShowOrderPopup} type={"Turf Construction"} />
-      <Turfotherservices />
       <Exploredesigns />
       <Callusbanner />
     </div>

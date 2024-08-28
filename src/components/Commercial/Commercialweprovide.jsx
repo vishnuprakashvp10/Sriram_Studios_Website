@@ -14,9 +14,9 @@ const Commercialweprovide = ({ reverse, img, title, description, handleOrderPopu
                 reverse ? "md:order-last" : ""
               } `}
             >
-              <h1 className="md:text-4xl text-center text-xl mx-auto font-bold text-black">{title}</h1>
+              <h1 className="md:text-4xl text-center text-xl mx-auto font-bold text-primary">{title}</h1>
 
-              <p className="=font-bold py-2 max-w-[600px] mx-auto text-black">
+              <p className="=font-bold py-2 max-w-[600px] mx-auto text-white">
                 {description}
               </p>
 

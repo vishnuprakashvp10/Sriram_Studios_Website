@@ -1,10 +1,10 @@
 import React from "react";
-import Img1 from "../../assets/Hero/lshape.jpg";
-import Img2 from "../../assets/Hero/linear.jpg";
-import Img3 from "../../assets/Hero/ushape.jpg";
-import Img4 from "../../assets/Hero/para.jpg";
-import Img5 from "../../assets/Hero/island.jpg";
-import Img6 from "../../assets/Hero/gshape.jpg";
+import Img1 from "../../assets/Hero/voice-studio.jpg";
+import Img2 from "../../assets/Hero/ab-roll.jpeg";
+import Img3 from "../../assets/Hero/gobal-edit.jpg";
+import Img4 from "../../assets/Hero/non-linear-editing.jpg";
+import Img5 from "../../assets/Hero/high-performance.jpg";
+import Img6 from "../../assets/Hero/editing-suite-for-needs.jpg";
 
 const ModularkitchenweprovideData = [
   {
