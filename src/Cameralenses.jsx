@@ -11,6 +11,9 @@ import Banner4 from './assets/Hero/master-prime-lens.jpg';
 import Banner5 from './assets/Hero/supreme-prime-lenses.jpg';
 import Banner6 from './assets/Hero/atlas-anamorphic-lenses.jpg';
 import Banner7 from './assets/Hero/cookie-anamorphic-lenses.jpg';
+import Banner8 from './assets/Hero/fujinon-lens.jpg';
+import Banner9 from './assets/Hero/Laowa-lens.jpg';
+import Banner10 from './assets/Hero/canon-100-macro-lens.jpg';
 import Callusbanner from './components/Callusbanner/Callusbanner';
 import WhatsAppButton from './whatsappbutton';
 import { Helmet } from 'react-helmet-async'
@@ -80,6 +83,26 @@ const Cameralenses = () => {
         img={Banner7}
         title="Cookie Anamorphic Lenses"
         description="Revitalize your interiors with our dedicated team of professional interior painters. As a trusted name among interior painting companies, we specialize in commercial and residential projects. Whether you need local painters for homes or commercial spaces, our interior painting business is committed to delivering top-notch services, ensuring vibrant and polished results."
+      />
+                  <Cameralensesweprovide
+        handleOrderPopup={handleOrderPopup}
+        reverse={true}
+        img={Banner8}
+        title="Fujinon Premista Lenses"
+        description="Fujinon Premista Lenses are a series of premium large-format cinema lenses designed for high-end film production. These lenses are renowned for their outstanding optical performance, delivering exceptional sharpness, clarity, and beautiful color rendition across the frame. The Premista series includes wide-angle, standard, and telephoto zoom lenses, offering a versatile range of focal lengths while maintaining consistent image quality."
+      />
+                             <Cameralensesweprovide
+        handleOrderPopup={handleOrderPopup}
+        img={Banner9}
+        title="Laowa 12mm Lenses"
+        description="Its impressive 122-degree field of view, making it a go-to choice for landscape, architectural, and interior photography. With its close-to-zero distortion, the Laowa 12mm lens ensures accurate lines and structures, offering sharp, crisp images across the frame. Its manual focus design provides precise control over focus, especially when shooting wide vistas or in tight spaces."
+      />
+                        <Cameralensesweprovide
+        handleOrderPopup={handleOrderPopup}
+        reverse={true}
+        img={Banner10}
+        title="Canon 100 Macro Lenses"
+        description="It features a 100mm focal length, perfect for macro photography, offering a 1:1 magnification ratio to reproduce subjects at life size. The lens is equipped with advanced image stabilization, making handheld shooting easier even at close distances. Its fast autofocus, combined with manual focus capabilities, allows for precision in capturing intricate details."
       />
       <OrderPopup orderPopup={showOrderPopup} setOrderPopup={setShowOrderPopup} type={"Camera Lenses"} />
       <Exploreourspaces />
