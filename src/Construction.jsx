@@ -15,6 +15,7 @@ import Banner8 from './assets/Hero/red-raptor.jpg';
 import Banner9 from './assets/Hero/red-gemini.jpg';
 import Banner10 from './assets/Hero/red-helium.jpg';
 import Banner11 from './assets/Hero/sony-fx9.jpg';
+import Banner12 from './assets/Hero/sony-f5.jpg';
 import OrderPopup from "./Popup";
 import WhatsAppButton from './whatsappbutton';
 import { Helmet } from 'react-helmet-async';
@@ -110,6 +111,13 @@ const Construction = () => {
   img={Banner11}
   title="Sony FX9 Cameras"
   description="The Sony FX9 Camera combines full-frame sensor technology with incredible autofocus capabilities, making it perfect for both scripted and documentary-style filmmaking. With 6K resolution down-sampled to 4K, it ensures stunning image quality while maintaining versatility on set."
+/>
+<Constructionweprovide
+  handleOrderPopup={handleOrderPopup}
+  reverse={true}
+  img={Banner12}
+  title="Sony F5 Cameras"
+  description="The Sony F5 is a versatile and high-performance digital cinema camera designed for professional filmmakers and video production teams. Renowned for its exceptional image quality and advanced features, the F5 excels in capturing stunning visuals with incredible detail and dynamic range."
 />
       <OrderPopup orderPopup={showOrderPopup} setOrderPopup={setShowOrderPopup} type={"Construction"} />
       <Exploredesigns />

@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
-import Navbar from "./components/Navbar/Navbar";
 import Hero from './components/Hero/Hero';
 import Herocard from './components/Hero/Herocard';
-import Servicesoffertext from './components/Servicesoffer/Servicesoffertext';
 import Servicesoffer from './components/Servicesoffer/Servicesoffer';
 import Exploredesigns from './components/Exploredesigns/Exploredesigns';
 import Callusbanner from './components/Callusbanner/Callusbanner';
@@ -74,7 +72,7 @@ const Home = () => {
         img={Banner5}
         title="Genset Rentals"
         description="At Sriram Studios, we provide reliable genset rentals for film productions, ensuring uninterrupted power supply on set. Our gensets is designed to meet the demands of both indoor and outdoor shoots, offering consistent and efficient power solutions. Whether you're working with heavy lighting setups or high-end camera equipment, our gensets ensure that your production runs smoothly without any power disruptions. Trust Sriram Studios for dependable power solutions tailored for professional filmmakers."
-        description2={<Link to="/genset"> Explore more!</Link>}
+        description2={<Link to="/genset-rentals"> Explore more!</Link>}
       />
       <OrderPopup orderPopup={showOrderPopup} setOrderPopup={setShowOrderPopup} type={"Home Page"} />
       <Exploredesigns />

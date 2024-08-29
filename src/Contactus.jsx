@@ -7,10 +7,10 @@ import { Helmet } from 'react-helmet-async'
 
 const Contactus = () => {
   return (
-    <div>
+    <div className="bg-black ">
       <Helmet>
-        <title>Contact Us &#124; Infratech Builders, Chennai</title>
-        <meta name='description' content="Ready to transform your space in Chennai? Drop us a message, one of our team members will get in touch with you promptly." />
+        <title>Contact Us &#124; Sriram Studios, Chennai</title>
+        <meta name='description' content="Get in touch with Sriram Studios, our dedicated team is ready to assist you with top-notch services and solutions for all your requirements." />
       </Helmet>
       <WhatsAppButton />
       <Contactushero />

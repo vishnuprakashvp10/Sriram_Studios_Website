@@ -27,7 +27,7 @@ const FooterLinks = [
   },
   {
     title: "Genset Rentals",
-    link: "/genset",
+    link: "/genset-rentals",
   },
   {
     title: "Privacy Policy",
@@ -104,7 +104,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
               >
                 <p className="text-sm sm:text-base hover:text-primary/90 underline">
-                New no:161, Rangarajapuram Main Road, Kodambakkam, Chennai.600024
+                New no:161, Rangarajapuram Main Road, Kodambakkam, Chennai-600024
                 </p>
               </a>
             </div>

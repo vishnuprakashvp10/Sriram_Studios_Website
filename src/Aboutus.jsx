@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import OrderPopup from "./Popup";
 import Aboutushero from './components/Aboutus/Aboutushero'
 import Aboutusdetails from './components/Aboutus/Aboutusdetails'
-import OurRenovationservices from './components/Renovationservices/OurRenovationservices'
-import Aboutotherservices from './components/Aboutus/Aboutotherservices'
 import Exploredesigns from './components/Exploredesigns/Exploredesigns'
 import Callusbanner from './components/Callusbanner/Callusbanner';
 import WhatsAppButton from './whatsappbutton';
@@ -14,25 +12,24 @@ const Aboutus = () => {
   const [showOrderPopup, setShowOrderPopup] = useState(false);
   const handleOrderPopup = () => {
     if (isMobile) {
-      window.location.href = `tel:+917092805747`;
+      window.location.href = `tel:+04423751935`;
       return null;
     }
     setShowOrderPopup(!showOrderPopup);
   };
   return (
-    <div>
+    <div className="bg-black text-white">
       <Helmet>
-        <title>About Us &#124; Infratech Builders, Chennai</title>
-        <meta name='description' content="Infratech Builders, with a decade-long legacy of excellence in construction and interior design, crafting spaces with precision in Chennai. Find out more." />
+        <title>About Us &#124; Sriram Studios, Chennai</title>
+        <meta name='description' content="Sriram Studios, with a commitment to excellence and innovation, we provide top-tier services in film production and post production." />
       </Helmet>
       <Aboutushero
         handleOrderPopup={handleOrderPopup} />
       <WhatsAppButton />
       <Aboutusdetails
       />
-      <Aboutotherservices
-        handleOrderPopup={handleOrderPopup} />
       <OrderPopup type={"About us"} orderPopup={showOrderPopup} setOrderPopup={setShowOrderPopup} />
+      <Exploredesigns />
       <Callusbanner />
     </div>
   )

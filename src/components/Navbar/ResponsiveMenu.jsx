@@ -73,8 +73,8 @@ const Menu = [
       },
     {
       id: 4,
-      name: "Genset",
-      link: "/genset",
+      name: "Genset Rentals",
+      link: "/genset-rentals",
     },
   ],
   },

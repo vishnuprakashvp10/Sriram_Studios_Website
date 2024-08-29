@@ -15,13 +15,9 @@ const Renovationservicesweprovide = ({ reverse, img, title, description2, descri
                 reverse ? "md:order-last" : ""
               } `}
             >
-              <h1 className="md:text-4xl text-2xl mx-auto font-bold text-black">{title}</h1>
-              <p className="=font-bold  max-w-[600px]  text-black">
+              <h1 className="md:text-4xl text-2xl mx-auto font-bold text-primary">{title}</h1>
+              <p className="=font-bold  max-w-[600px]  text-white">
               {description}
-
-              </p>
-              <p className="=font-bold  py-2 max-w-[600px] text-black">
-                {description2}
               </p>
               <div>
               </div>

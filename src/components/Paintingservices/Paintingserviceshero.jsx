@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { RxDotFilled } from 'react-icons/rx';
-import Image1 from "../../assets/Hero/paintingnewheroblock.jpg";
+import Image1 from "../../assets/Hero/lenses-hero.jpg";
 
 const ImageList = [
   {

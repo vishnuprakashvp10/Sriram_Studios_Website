@@ -101,7 +101,7 @@ const Navbar = ({ handleOrderPopup, orderPopup }) => {
         { id: 41, name: "Lights and Grips", link: "/lights-and-grips" },
         { id: 42, name: "Lens Filters", link: "/lens-filters" },
         { id: 43, name: "Camera Lenses", link: "/camera-lenses" },
-        { id: 44, name: "Genset", link: "/genset" },
+        { id: 44, name: "Genset Rentals", link: "/genset-rentals" },
       ],
     },
     { id: 5, name: "About", link: "/about-us" },

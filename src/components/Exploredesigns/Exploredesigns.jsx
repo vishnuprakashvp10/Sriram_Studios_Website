@@ -12,7 +12,7 @@ import Img6 from "../../assets/Hero/lens-filters.webp";
 import Img7 from "../../assets/Hero/signature-prime-lens.jpg";
 import Img8 from "../../assets/Hero/genset.avif";
 import Img9 from "../../assets/Hero/alexa-lf-and-mini-lf.jpg";
-import Img10 from "../../assets/Hero/projector.webp";
+import Img10 from "../../assets/Hero/multi-cam-img2.jpg";
 import OrderPopup from "../../Popup";
 import { isMobile } from "react-device-detect";
 
@@ -69,8 +69,8 @@ const Exploredesignscard = [
   {
     id: 8,
     img: Img8,
-    name: "Genset",
-    link: "/genset",    
+    name: "Genset Rentals",
+    link: "/genset-rentals",    
     text: "Ensure uninterrupted power on set with our reliable genset rentals, tailored for professional shoots.",
   },
   {
@@ -83,8 +83,8 @@ const Exploredesignscard = [
   {
     id: 10,
     img: Img10,
-    name: "About",
-    link: "/about-us",    
+    name: "Multi Camera Setup",
+    link: "/multi-camera-setup",    
     text: "Discover more about Sriram Studios and our commitment to excellence in film production.",
   },
 ];
