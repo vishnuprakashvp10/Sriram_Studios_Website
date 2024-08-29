@@ -2,8 +2,9 @@ import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import footerLogo from "../../assets/sriram_studios_logo.png";
 import { IoLocation } from "react-icons/io5";
-import { FaFacebook, FaInstagram, FaLinkedin, FaMobileAlt } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaMobileAlt } from "react-icons/fa";
 import ThankYouPopup from "../../ThankYouPopup";
+import { FaSquareXTwitter } from "react-icons/fa6";
 import { useForm } from "react-hook-form";
 import { createContactFormFirebase } from "../../Utils/firebase";
 import { FormContext } from "../../contexts/FormSubmitted.context";
@@ -85,14 +86,15 @@ const Footer = () => {
 
         <div className="text-center md:text-left">
           <div className="flex justify-center items-center gap-3 py-8 px-4">
-            <a href="https://www.instagram.com/infratechbuilders/">
+            <a href="https://www.instagram.com/sriramstudiochennai/"
+            target="_blank"
+            rel="noopener noreferrer">
               <FaInstagram className="text-3xl" />
             </a>
-            <a href="https://www.facebook.com/infratech.builders.1">
-              <FaFacebook className="text-3xl" />
-            </a>
-            <a href="http://www.linkedin.com/in/infra-tech-builders-6897641a6">
-              <FaLinkedin className="text-3xl" />
+            <a href="https://x.com/sriramstudios"
+            target="_blank"
+            rel="noopener noreferrer">
+              <FaSquareXTwitter className="text-3xl" />
             </a>
           </div>
           <div className="px-4 hidden md:block">

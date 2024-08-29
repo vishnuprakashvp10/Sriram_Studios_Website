@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Hero from './components/Hero/Hero';
 import Herocard from './components/Hero/Herocard';
 import Servicesoffer from './components/Servicesoffer/Servicesoffer';
-import Exploredesigns from './components/Exploreourspaces/Exploreourspaces';
+import Exploreourspaces from './components/Exploreourspaces/Exploreourspaces';
 import Callusbanner from './components/Callusbanner/Callusbanner';
 import OrderPopup from "./Popup";
 import Banner1 from './assets/Hero/alexa-lf-and-mini-lf.jpg';
@@ -27,7 +27,7 @@ const Home = () => {
   };
 
   return (  
-    <div className="bg-black text-white">
+    <div className="bg-black">
       <Helmet>
         <title>Sriram Studios &#124; All In One Production Services in Chennai</title>
         <meta name='description' content='Sriram Studios in Chennai offers premium film production and post-production services, specializing in camera, lens, and light rentals, and more.'/>
@@ -75,7 +75,7 @@ const Home = () => {
         description2={<Link to="/genset-rentals"> Explore more!</Link>}
       />
       <OrderPopup orderPopup={showOrderPopup} setOrderPopup={setShowOrderPopup} type={"Home Page"} />
-      <Exploredesigns />
+      <Exploreourspaces />
       <Callusbanner />
     </div>
   );
