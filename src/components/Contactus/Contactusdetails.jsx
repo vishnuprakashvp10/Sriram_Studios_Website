@@ -90,7 +90,7 @@ export default function Contactusdetails() {
                   className="w-full border border-black text-black px-2 py-2"
                   {...register("service", { required: true })}
                 >
-                  <option value="" disabled>Select a Service</option>
+                  <option value="" disabled selected>Select a Service</option>
                   <option value="Film Cameras">Film Cameras</option>
                   <option value="Camera Lenses">Camera Lenses</option>
                   <option value="Lens Filters">Lens Filters</option>

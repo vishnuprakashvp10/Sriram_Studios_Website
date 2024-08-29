@@ -5,35 +5,24 @@ const routes = [
   '/',
   '/home',
   '/construction',
-  '/commercial-interior-designs',
-  '/overview-home-interiors',
-  '/modular-kitchen',
-  '/living-room-hall',
-  '/false-ceiling',
-  '/cupboard-wardrobes',
-  '/dining-room',
-  '/toilet-bathroom',
-  '/tv-show-case',
-  '/study-room',
-  '/pooja-room',
-  '/bedroom',
-  '/multi-turf-construction',
-  '/painting-services',
-  '/renovation-services',
+  '/film-camera-units',
+  '/multi-camera-setup',
+  '/green-matte-studio',
+  '/editing-suites',
+  '/dubbing-studios',
+  '/audio-mixing',
+  '/lights-and-grips',
+  '/lens-filters',
+  '/camera-lenses',
+  '/genset-rentals',
   '/about-us',
   '/contact-us',
   '/privacy-policy',
   '/faq',
-  '/blog-post',
-  '/blog-post/top-10-construction-companies-in-chennai',
-  '/blog-post/top-10-interior-designing-companies-in-chennai',
-  '/blog-post/top-10-turf-construction-companies-in-chennai',
-  '/blog-post/top-10-home-renovation-companies-in-chennai',
-  '/blog-post/top-10-painting-services-companies-in-chennai',
 ];
 
 const generateSitemap = async () => {
-  const stream = new SitemapStream({ hostname: 'https://infratechbuilders.in/' }); 
+  const stream = new SitemapStream({ hostname: 'https://sriramstudios.com/' }); 
 
   routes.forEach((route) => {
     stream.write({ url: route, changefreq: 'weekly', lastmod: new Date().toISOString() });

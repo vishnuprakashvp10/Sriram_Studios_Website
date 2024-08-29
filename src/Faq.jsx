@@ -254,7 +254,7 @@ export default function Faq() {
         </Helmet>
         <section className="max-w-xl mx-auto py-20 px-4">
           <h1 className="text-center uppercase tracking-widest text-primary font-bold mb-8 text-2xl">
-            FAQs
+            Frequently Asked Questions
           </h1>
 
           <h1 className="text-center tracking-widest font-bold mb-8 text-2xl text-primary">

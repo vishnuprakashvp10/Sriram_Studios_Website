@@ -1,28 +1,19 @@
-// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getFirestore, doc, getDoc, setDoc, collection, addDoc, query, where, getDocs, deleteDoc, orderBy, updateDoc } from 'firebase/firestore';
 
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-
 const firebaseConfig = {
-    apiKey: "AIzaSyC65dC7ZKi2qsaNzTcR6S3zcPDMKmLoE7M",
-    authDomain: "infratechbuilders-database.firebaseapp.com",
-    projectId: "infratechbuilders-database",
-    storageBucket: "infratechbuilders-database.appspot.com",
-    messagingSenderId: "61203815544",
-    appId: "1:61203815544:web:61e64d1ce4f39af430a18d",
-    measurementId: "G-BNQ05NEJYQ"
+        apiKey: "AIzaSyAcOFyHS2PtbAyqUsf99H7p31TL2-zAj9U",
+        authDomain: "sriram-studios-database-d954c.firebaseapp.com",
+        projectId: "sriram-studios-database-d954c",
+        storageBucket: "sriram-studios-database-d954c.appspot.com",
+        messagingSenderId: "306560172773",
+        appId: "1:306560172773:web:405c36b9a5a66fede60a0c"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
-
 export const db = getFirestore();
 
 //Create Document In Firestore

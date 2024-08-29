@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import OrderPopup from "./Popup";
 import Aboutushero from './components/Aboutus/Aboutushero'
 import Aboutusdetails from './components/Aboutus/Aboutusdetails'
-import Exploredesigns from './components/Exploredesigns/Exploredesigns'
+import Exploredesigns from './components/Exploreourspaces/Exploreourspaces'
 import Callusbanner from './components/Callusbanner/Callusbanner';
 import WhatsAppButton from './whatsappbutton';
 import { Helmet } from 'react-helmet-async'

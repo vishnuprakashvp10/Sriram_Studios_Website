@@ -1,18 +1,18 @@
 import React, { useContext, useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Home';
-import Construction from './Construction';
-import Commercialinteriordesigns from './Commercialinteriordesigns';
+import Filmcameraunits from './Filmcameraunits';
+import Multicamerasetup from './Multicamerasetup';
 import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
-import Homeinteriors from './Homeinteriors';
-import Modularkitchen from './Modularkitchen';
-import Livingroomhall from './Livingroomhall';
-import Falseceiling from './Falseceiling';
-import Cupboard from './Cupboard';
-import Turfconstruction from './Turfconstruction';
-import Paintingservices from './Paintingservices';
-import Renovationservices from './Renovationservices';
+import Greenmattestudios from './Greenmattestudios';
+import Editingsuites from './Editingsuites';
+import Audiomixing from './Audiomixing';
+import Dubbingstudios from './Dubbingstudios';
+import Lensfilters from './Lensfilters';
+import Lightsandgrips from './Lightsandgrips';
+import Cameralenses from './Cameralenses';
+import Gensetrentals from './Gensetrentals';
 import Privacypolicy from './Privacypolicy';
 import Faq from './Faq';
 import Aboutus from './Aboutus';
@@ -40,16 +40,16 @@ const App = () => {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/home" element={<Home />} />
-              <Route path="/film-camera-units" element={<Construction />} /> 
-              <Route path="/multi-camera-setup" element={<Commercialinteriordesigns />} />
-              <Route path="/green-matte-studio" element={<Homeinteriors />} />
-              <Route path="/editing-suites" element={<Modularkitchen />} />
-              <Route path="/audio-mixing" element={<Livingroomhall />} />
-              <Route path="/dubbing-studios" element={<Falseceiling />} />
-              <Route path="/lens-filters" element={<Cupboard />} />
-              <Route path="/lights-and-grips" element={<Turfconstruction />} />
-              <Route path="/camera-lenses" element={<Paintingservices />} />
-              <Route path="/genset-rentals" element={<Renovationservices />} />
+              <Route path="/film-camera-units" element={<Filmcameraunits />} /> 
+              <Route path="/multi-camera-setup" element={<Multicamerasetup />} />
+              <Route path="/green-matte-studio" element={<Greenmattestudios />} />
+              <Route path="/editing-suites" element={<Editingsuites />} />
+              <Route path="/audio-mixing" element={<Audiomixing />} />
+              <Route path="/dubbing-studios" element={<Dubbingstudios />} />
+              <Route path="/lens-filters" element={<Lensfilters />} />
+              <Route path="/lights-and-grips" element={<Lightsandgrips />} />
+              <Route path="/camera-lenses" element={<Cameralenses />} />
+              <Route path="/genset-rentals" element={<Gensetrentals />} />
               <Route path="/privacy-policy" element={<Privacypolicy />} />
               <Route path="/faq" element={<Faq />} />
               <Route path="/about-us" element={<Aboutus />} />

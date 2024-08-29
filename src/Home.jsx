@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Hero from './components/Hero/Hero';
 import Herocard from './components/Hero/Herocard';
 import Servicesoffer from './components/Servicesoffer/Servicesoffer';
-import Exploredesigns from './components/Exploredesigns/Exploredesigns';
+import Exploredesigns from './components/Exploreourspaces/Exploreourspaces';
 import Callusbanner from './components/Callusbanner/Callusbanner';
 import OrderPopup from "./Popup";
 import Banner1 from './assets/Hero/alexa-lf-and-mini-lf.jpg';
