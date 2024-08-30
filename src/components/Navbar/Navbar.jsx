@@ -182,6 +182,9 @@ const Navbar = ({ handleOrderPopup, orderPopup }) => {
                             <li>
                               <Link to="/audio-mixing" className="hover:text-[#3E4095]" style={{ lineHeight: '3' }}>Audio Mixing</Link>
                             </li>
+                            <li>
+                              <Link to="/teleprompters" className="hover:text-[#3E4095]" style={{ lineHeight: '3' }}>Teleprompters</Link>
+                            </li>
                           </ul>
                         </div>
                       )}

@@ -13,7 +13,7 @@ import Banner6 from './assets/Hero/atlas-anamorphic-lenses.jpg';
 import Banner7 from './assets/Hero/cookie-anamorphic-lenses.jpg';
 import Banner8 from './assets/Hero/fujinon-lens.jpg';
 import Banner9 from './assets/Hero/Laowa-lens.jpg';
-import Banner10 from './assets/Hero/canon-100-macro-lens.jpg';
+import Banner10 from './assets/Hero/laowa-100mm-macro-lens.jpg';
 import Callusbanner from './components/Callusbanner/Callusbanner';
 import WhatsAppButton from './whatsappbutton';
 import { Helmet } from 'react-helmet-async'
@@ -101,8 +101,8 @@ const Cameralenses = () => {
         handleOrderPopup={handleOrderPopup}
         reverse={true}
         img={Banner10}
-        title="Canon 100 Macro Lenses"
-        description="It features a 100mm focal length, perfect for macro photography, offering a 1:1 magnification ratio to reproduce subjects at life size. The lens is equipped with advanced image stabilization, making handheld shooting easier even at close distances. Its fast autofocus, combined with manual focus capabilities, allows for precision in capturing intricate details."
+        title="Laowa 100 Macro Lenses"
+        description="This lens is equipped with an apochromatic (APO) design, which minimizes chromatic aberrations, ensuring sharp images with accurate colors even at high magnifications. It has a manual focus system, providing precise control for capturing intricate details, and a 100mm focal length that allows for a comfortable working distance from subjects."
       />
       <OrderPopup orderPopup={showOrderPopup} setOrderPopup={setShowOrderPopup} type={"Camera Lenses"} />
       <Exploreourspaces />

@@ -43,6 +43,11 @@ const Menu = [
             name: "Audio Mixing",
             link: "/audio-mixing",
           },
+          {
+            id: 5,
+            name: "Teleprompters",
+            link: "/teleprompters",
+          },
         ]
       },
       {

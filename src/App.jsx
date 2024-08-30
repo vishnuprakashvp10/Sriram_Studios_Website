@@ -12,6 +12,7 @@ import Dubbingstudios from './Dubbingstudios';
 import Lensfilters from './Lensfilters';
 import Lightsandgrips from './Lightsandgrips';
 import Cameralenses from './Cameralenses';
+import Teleprompter from './Teleprompter.jsx';
 import Gensetrentals from './Gensetrentals';
 import Privacypolicy from './Privacypolicy';
 import Faq from './Faq';
@@ -46,6 +47,7 @@ const App = () => {
               <Route path="/editing-suites" element={<Editingsuites />} />
               <Route path="/audio-mixing" element={<Audiomixing />} />
               <Route path="/dubbing-studios" element={<Dubbingstudios />} />
+              <Route path="/teleprompters" element={<Teleprompter />} />
               <Route path="/lens-filters" element={<Lensfilters />} />
               <Route path="/lights-and-grips" element={<Lightsandgrips />} />
               <Route path="/camera-lenses" element={<Cameralenses />} />
