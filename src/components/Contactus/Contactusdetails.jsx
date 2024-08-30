@@ -33,7 +33,7 @@ export default function Contactusdetails() {
       text: (
         <>
           New no:161, Rangarajapuram Main Road, <br />
-          Kodambakkam, Chennai.600024
+          Kodambakkam, Chennai-600024
         </>
       ),             
       href: "https://maps.app.goo.gl/vCnnz7TuGXoiwuieA",
