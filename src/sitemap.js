@@ -11,6 +11,7 @@ const routes = [
   '/editing-suites',
   '/dubbing-studios',
   '/audio-mixing',
+  '/teleprompters',
   '/lights-and-grips',
   '/lens-filters',
   '/camera-lenses',
